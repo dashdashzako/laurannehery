@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+{{ partial "site-header.html" . }}
+
+<div class="site-content">
+  <ul class="projects-list">
+    {{ range where .Data.Pages "Section" "project" }}
+      <li class="projects-list-item">
+        <figure>
+          <a href="{{ .Permalink }}">
+            <img class="thumbnail" src="/img/common/mire.png" alt="">
+            <figcaption>
+              <h2 class="title">{{ .Title }}</h2>
+              <p class="short-description">{{ .Params.client }}</p>
+            </figcaption>
+          </a>
+        </figure>
+      </li>
+
+    {{ end }}
+  </ul>
+</div>
+
+{{ partial "footer.html" . }}
