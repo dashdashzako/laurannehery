@@ -84,28 +84,38 @@ p {
 }
 
 /* **************** */
+/* misc */
+.fat {
+  font-weight: bold;
+}
+
+/* **************** */
 /* site wrapper */
 
 .site-wrapper {
   width: 100%;
-  display: flex;
   margin: 0 auto;
 }
 
+@media only screen and (min-width : 900px) {
+  .site-wrapper {
+    display: flex;
+  }
+}
 
 /* **************** */
 /* site header */
 
 .site-header {
-  flex: 0 0 300px;
   padding: 1rem;
+  text-align: center;
 }
 
 .site-title {
-  padding-top: 160px;
+  padding-top: 60px;
   background-image: url(/img/common/logo.png);
   background-position: top center;
-  background-size: 160px 160px;
+  background-size: 60px 60px;
   background-repeat: no-repeat;
 }
 
@@ -114,12 +124,19 @@ p {
   font-size: 1.2rem;
 }
 
-.navigation {
-
-}
-
 .navigation-item {
   display: block;
+}
+
+@media only screen and (min-width: 900px) {
+  .site-header {
+    flex: 0 0 300px;
+  }
+
+  .site-title {
+    padding-top: 160px;
+    background-size: 160px 160px;
+  }
 }
 
 /* */
@@ -128,16 +145,14 @@ p {
   flex: 1;
 }
 
+/* ************************* */
 /* index */
 
 .projects-list {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0;
 }
 
 .projects-list-item {
-  flex: 1 1 33.33333%;
   list-style: none;
   background-color: #333;
 
@@ -145,7 +160,7 @@ p {
   position: relative;
 }
   .projects-list-item figure {
-    height: 280px;
+    height: 380px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -164,6 +179,20 @@ p {
       opacity: 1;
     }
 
+    .projects-list-item a:hover .thumbnail {
+      transform: scale(1.02);
+      opacity: .5;
+    }
+
+    .projects-list-item a:hover .separator {
+      width: 40px;
+    }
+
+    .projects-list-item a:hover .title,
+    .projects-list-item a:hover .short-description {
+      top: 0;
+    }
+
   .projects-list-item .thumbnail {
     display: block;
     width: 100%;
@@ -171,11 +200,13 @@ p {
     position: absolute;
     top: 50%;
     z-index: 0;
+    transform-origin: center;
+    transition: transform .15s, opacity .15s;
   }
 
   .projects-list-item figcaption {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -186,23 +217,126 @@ p {
 
     background-color: #569073;
     color: #fff;
-    opacity: 0;
-    transition: opacity .25s;
   }
 
   .projects-list-item .title {
-    margin-bottom: 0;
+    margin-bottom: .5rem;
+    position: relative;
     font-size: 1rem;
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
+    top: -.5rem;
+    transition: top .15s .05s;
   }
 
-  .projects-list-item .title::after {
+  .projects-list-item .separator {
     display: block;
-    margin: .5rem auto;
-    width: 20px;
+    margin: 0 auto;
+    width: 0px;
     height: 1px;
     background-color: #fff;
-    content: "";
+    transition: width .15s .15s;
   }
+
+  .projects-list-item .short-description {
+    margin-top: .5rem;
+    margin-bottom: 0;
+    position: relative;
+    font-weight: normal;
+    text-transform: uppercase;
+    top: .5rem;
+    transition: top .15s .05s;
+  }
+
+@media only screen and (min-width: 600px) {
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects-list-item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+  }
+
+  .projects-list-item figure {
+    height: 280px;
+  }
+
+  .projects-list-item figcaption {
+    top: 0;
+    opacity: 0;
+    transition: opacity .25s;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .projects-list-item {
+    flex-basis: 33.33333%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .projects-list-item {
+    flex-basis: 25%;
+  }
+}
+
+
+/* */
+/* project */
+
+.single-project {
+  max-width: calc(1465px - 300px);
+}
+
+.project-images {
+  padding: 1rem;
+}
+
+.project-image {
+  max-width: 100%;
+  display: block;
+  box-shadow: 2px 3px 2px rgba(0,0,0, .1);
+  border: 1px solid rgba(0,0,0, .13);
+}
+
+.project-image + .project-image {
+  margin-top: 1rem;
+}
+
+.project-infos {
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-infos :last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .project-infos {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1265px) {
+  .single-project {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project-images {
+    flex: 1;
+  }
+
+  .project-infos {
+    flex: 0 0 300px;
+  }
+
+  .project-infos .sticky {
+    position: fixed;
+  }
+}

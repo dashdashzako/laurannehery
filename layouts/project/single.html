@@ -2,8 +2,12 @@
 
 {{ partial "site-header.html" . }}
 
-<div>
-  {{ .Title }}
+<div class="site-content contained">
+  <article class="single-project">
+    {{ partial "project-infos.html" . }}
+
+    {{ partial "project-images.html" . }}
+  </article>
 </div>
 
 {{ partial "footer.html" . }}

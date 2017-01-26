@@ -6,7 +6,7 @@
   </h1>
 
   <nav class="navigation">
-    {{ range where .Data.Pages "Section" "page" }}
+    {{ range where .Site.Pages "Section" "page" }}
     <span class="navigation-item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
     {{ end }}
   </nav>
