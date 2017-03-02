@@ -2,9 +2,10 @@
 draft = true
 date = ""
 title = "Title of the project"
-miniature = "/path/to/thumbnail.jpg"
+miniature = "/img/projects/project-name/thumbnail.jpg"
+wide = false
 client = "The client's name"
-images = ["/path/to/large/image-1.jpg"]
+images = ["/img/projects/project-name/image-1.jpg"]
 +++
 
 More information here.

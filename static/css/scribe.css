@@ -204,6 +204,15 @@ p {
     transition: transform .15s, opacity .15s;
   }
 
+  .projects-list-item .thumbnail.wide {
+    height: 100%;
+    width: auto;
+    margin-left: -50%;
+    margin-top: 0;
+    left: 50%;
+    top: 0;
+  }
+
   .projects-list-item figcaption {
     position: absolute;
     top: 50%;
