@@ -1,7 +1,7 @@
 languageCode = "fr"
 title = "Lauranne Héry"
 baseurl = "http://www.laurannehery.fr/"
-disableRSS = true
+disableRSS = false
 googleAnalytics = "UA-90860364-1"
 
 [permalinks]
@@ -9,5 +9,5 @@ googleAnalytics = "UA-90860364-1"
   project = "/portfolio/:title/"
 
 [author]
-name = "Lauranne Héry"
-occupation = "Conceptrice Rédactrice"
+  name = "Lauranne Héry"
+  occupation = "Conceptrice Rédactrice"
