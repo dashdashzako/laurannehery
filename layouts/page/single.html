@@ -2,8 +2,10 @@
 
 {{ partial "site-header.html" . }}
 
-<div>
-  {{ .Content }}
+<div class="site-content">
+  <article class="page">
+    {{ .Content }}
+  </article>
 </div>
 
 {{ partial "footer.html" . }}
