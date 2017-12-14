@@ -1,8 +1,10 @@
 {{ partial "header.html" . }}
 
+{{ partial "skip-to-content.html" }}
+
 {{ partial "site-header.html" . }}
 
-<main>
+<main id="content">
   <ul class="projects-list">
     {{ range where .Data.Pages "Section" "project" }}
       {{ partial "projects-list-item.html" . }}
