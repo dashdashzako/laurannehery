@@ -1,12 +1,9 @@
 <li class="projects-list-item">
-  <figure>
-    <a href="{{ .Permalink }}">
-      <img class="thumbnail{{ if eq .Params.wide true }} wide{{ end }}" src="{{ .Params.miniature }}" alt="">
-      <figcaption>
-        <h2 class="title">{{ .Title }}</h2>
-        <span class="separator"></span>
-        <p class="short-description">{{ .Params.client }}</p>
-      </figcaption>
-    </a>
-  </figure>
+  <a href="{{ .Permalink }}" style="background-image: url({{ .Params.miniature }});">
+    <article>
+      <h2 class="title">{{ .Title }}</h2>
+      <span class="separator"></span>
+      <p class="short-description">{{ .Params.client }}</p>
+    </article>
+  </a>
 </li>

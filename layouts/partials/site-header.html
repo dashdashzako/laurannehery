@@ -1,13 +1,13 @@
-<div class="site-header">
+<header class="site-header">
 
   <h1 class="site-title">
     <a href="/">{{ .Site.Author.name }}</a>
     <small class="site-subtitle">{{ .Site.Author.occupation }}</small>
   </h1>
 
-  <nav class="navigation">
-    {{ range where .Data.Pages "Section" "page" }}
+  <nav class="site-navigation">
+    {{ range where .Site.RegularPages "Section" "page" }}
     <span class="navigation-item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
     {{ end }}
   </nav>
-</div>
+</header>

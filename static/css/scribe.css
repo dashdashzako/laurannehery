@@ -1,16 +1,31 @@
-*, *:before, *:after {
+:root {
+  --palette-light-color: #007A4B;
+  --palette-dark-color: rgba(0, 90, 43, 1);
+  --palette-dark-color-transparent: rgba(0, 90, 43, 0);
+  --palette-white: #fff;
+}
+
+*,
+*:before,
+*:after {
   box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   font-family: 'Montserrat', sans-serif;
   color: #303030;
-  background-color: #f7f7f7;
-  font-size: 1rem;
+  background-color: #fcfcfc;
 }
 
 body {
-  margin: 0;
   line-height: 1.6;
 }
 
@@ -28,22 +43,25 @@ img {
 }
 
 a {
-  color: #78c9a1;
+  color: var(--palette-light-color);
   text-decoration: none;
 
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   border-bottom-style: solid;
-  border-bottom-color: #78c9a1;
+  border-bottom-color: var(--palette-light-color);
 
-  transition: border-bottom .15s;
+  transition: border-bottom-width .15s;
 }
 
-a:hover {
+a:hover,
+a:focus {
   text-decoration: none;
-  border-bottom-color: transparent;
+  border-bottom-width: 5px;
+  outline: 0;
 }
 
-ol, ul {
+ol,
+ul {
   margin: 0 0 1rem 1.25rem;
   padding: 0;
   list-style-position: outside;
@@ -63,11 +81,14 @@ article, section {
 
 h1 {
   margin: 0 0 1rem;
-  font-size: 1.875rem;
   font-weight: normal;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 .5rem;
 }
 
@@ -84,27 +105,7 @@ p {
 }
 
 /* **************** */
-/* misc */
-.fat {
-  font-weight: bold;
-}
-
-/* **************** */
-/* site wrapper */
-
-.site-wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-@media only screen and (min-width : 900px) {
-  .site-wrapper {
-    display: flex;
-  }
-}
-
-/* **************** */
-/* site header */
+/* Site Header */
 
 .site-header {
   padding: 1rem;
@@ -112,16 +113,22 @@ p {
 }
 
 .site-title {
-  padding-top: 60px;
+  padding: 140px 0 0 0;
+  
+  font-size: 1.5rem;
   background-image: url(/img/common/logo.png);
   background-position: top center;
-  background-size: 60px 60px;
+  background-size: 140px 140px;
   background-repeat: no-repeat;
 }
 
 .site-subtitle {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+.site-navigation {
+  padding: 0;
 }
 
 .navigation-item {
@@ -129,103 +136,56 @@ p {
 }
 
 @media only screen and (min-width: 900px) {
-  .site-header {
-    flex: 0 0 300px;
-  }
-
   .site-title {
-    padding-top: 160px;
+    padding: 160px 0 0 0;
+
+    font-size: 1.875rem;
     background-size: 160px 160px;
   }
 }
 
-/* */
-
-.site-content {
-  flex: 1;
-}
-
 /* ************************* */
-/* index */
+/* Home page */
 
 .projects-list {
   margin: 0;
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
 }
 
 .projects-list-item {
-  list-style: none;
-  background-color: #333;
+  height: 60vw;
 
-  overflow: hidden;
-  position: relative;
+  list-style: none;
+  background-color: var(--palette-dark-color);
 }
-  .projects-list-item figure {
-    height: 380px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    display: block;
-  }
 
   .projects-list-item a {
-    height: 100%;
     width: 100%;
-    display: block;
-    position: relative;
-    text-decoration: none;
-    border: none;
-  }
-    .projects-list-item a:hover figcaption {
-      opacity: 1;
-    }
-
-    .projects-list-item a:hover .thumbnail {
-      transform: scale(1.02);
-      opacity: .5;
-    }
-
-    .projects-list-item a:hover .separator {
-      width: 40px;
-    }
-
-    .projects-list-item a:hover .title,
-    .projects-list-item a:hover .short-description {
-      top: 0;
-    }
-
-  .projects-list-item .thumbnail {
-    display: block;
-    width: 100%;
-    margin-top: -50%;
-    position: absolute;
-    top: 50%;
-    z-index: 0;
-    transform-origin: center;
-    transition: transform .15s, opacity .15s;
-  }
-
-  .projects-list-item .thumbnail.wide {
     height: 100%;
-    width: auto;
-    margin-left: -50%;
-    margin-top: 0;
-    left: 50%;
-    top: 0;
-  }
+    padding: 6px;
 
-  .projects-list-item figcaption {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    bottom: 0;
-    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 
-    background-color: #569073;
-    color: #fff;
+    background-color: var(--palette-dark-color);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: none;
+  }
+
+  .projects-list-item article {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0.375rem;
+
+    background-color: var(--palette-dark-color);
+    color: var(--palette-white);
   }
 
   .projects-list-item .title {
@@ -235,17 +195,14 @@ p {
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
-    top: -.5rem;
-    transition: top .15s .05s;
   }
 
   .projects-list-item .separator {
     display: block;
     margin: 0 auto;
-    width: 0px;
+    width: 40px;
     height: 1px;
-    background-color: #fff;
-    transition: width .15s .15s;
+    background-color: var(--palette-white);
   }
 
   .projects-list-item .short-description {
@@ -253,43 +210,90 @@ p {
     margin-bottom: 0;
     position: relative;
     font-weight: normal;
+    text-align: center;
     text-transform: uppercase;
-    top: .5rem;
-    transition: top .15s .05s;
   }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 540px) {
   .projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-list-item {
+    height: 50vw;
+  }
+
+  .projects-list-item a {
+    padding: 0;
+    justify-content: center;
+  }
+
+    .projects-list-item a:hover article,
+    .projects-list-item a:focus article {
+      opacity: 1;
+      background-color: var(--palette-dark-color);
+    }
+
+    .projects-list-item a:hover .title,
+    .projects-list-item a:hover .short-description,
+    .projects-list-item a:focus .title,
+    .projects-list-item a:focus .short-description {
+      top: 0;
+      transform: scale(1.02);
+    }
+
+    .projects-list-item a:hover .separator,
+    .projects-list-item a:focus .separator {
+      width: 40px;
+    }
+
+  .projects-list-item article {
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
-  }
+    flex-direction: column;
+    justify-content: center;
 
-  .projects-list-item {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 50%;
-  }
-
-  .projects-list-item figure {
-    height: 280px;
-  }
-
-  .projects-list-item figcaption {
-    top: 0;
     opacity: 0;
-    transition: opacity .25s;
+    background-color: var(--palette-dark-color-transparent);
+    transition: opacity .25s ease-out, background-color .2s ease-out;
+  }
+
+  .projects-list-item .title {
+    top: -.5rem;
+  }
+
+  .projects-list-item .short-description {
+    top: .5rem;
+  }
+
+  .projects-list-item .title,
+  .short-description {
+    transition: top .15s .05s ease-out, transform .15s .05s ease-out;
+  }
+
+  .projects-list-item .separator {
+    width: 0px;
+    transition: width .1s .1s ease-out;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 820px) {
+  .projects-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .projects-list-item {
-    flex-basis: 33.33333%;
+    height: 33vw;
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1400px) {
+  .projects-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
   .projects-list-item {
-    flex-basis: 25%;
+    height: 25vw;
   }
 }
 
@@ -307,10 +311,6 @@ p {
 /* */
 /* project */
 
-.single-project {
-  max-width: calc(1465px - 300px);
-}
-
 .project-images {
   padding: 1rem;
 }
@@ -318,6 +318,7 @@ p {
 .project-image {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
   box-shadow: 2px 3px 2px rgba(0,0,0, .1);
   border: 1px solid rgba(0,0,0, .13);
 }
@@ -351,12 +352,6 @@ p {
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 900px) {
-  .project-infos {
-    text-align: left;
-  }
-}
-
 @media only screen and (min-width: 1265px) {
   .single-project {
     display: flex;
@@ -368,7 +363,8 @@ p {
   }
 
   .project-infos {
-    flex: 0 0 300px;
+    flex: 0 0 500px;
+    text-align: left;
   }
 
   .project-infos .sticky {
