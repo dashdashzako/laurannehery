@@ -1,9 +1,11 @@
 <li class="projects-list-item">
   <a href="{{ .Permalink }}" style="background-image: url({{ .Params.miniature }});">
     <article>
-      <h2 class="title">{{ .Title }}</h2>
-      <span class="separator"></span>
-      <p class="short-description">{{ .Params.client }}</p>
+      <h2 class="title">
+        {{ .Title }}
+        <span class="separator"></span>
+        <small class="short-description">{{ .Params.client }}</small>
+      </h2>
     </article>
   </a>
 </li>
