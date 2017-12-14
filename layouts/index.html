@@ -4,7 +4,7 @@
 
 {{ partial "site-header.html" . }}
 
-<main id="content">
+<main id="content" class="site-content">
   <ul class="projects-list">
     {{ range where .Data.Pages "Section" "project" }}
       {{ partial "projects-list-item.html" . }}

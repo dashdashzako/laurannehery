@@ -104,6 +104,11 @@ p {
   margin: 0 0 1rem;
 }
 
+.site-content {
+  max-width: 1800px;
+  margin: 2rem auto 0;
+}
+
 /* **************** */
 /* Site Header */
 
@@ -116,6 +121,7 @@ p {
   padding: 140px 0 0 0;
 
   font-size: 1.5rem;
+  background-color: var(--palette-white);
   background-image: url(/img/common/logo.png);
   background-position: top center;
   background-size: 140px 140px;
@@ -329,13 +335,13 @@ p {
   }
 }
 
-@media only screen and (min-width: 2100px) {
+@media only screen and (min-width: 1800px) {
   .projects-list {
     grid-template-columns: repeat(5, 1fr);
   }
 
   .projects-list-item {
-    height: 20vw;
+    height: calc(1800px / 5);
   }
 }
 
@@ -416,6 +422,7 @@ p {
   }
 
   .project-infos .sticky {
+    width: 500px;
     position: fixed;
   }
 }

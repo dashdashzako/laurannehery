@@ -1,8 +1,8 @@
 <header class="site-header">
 
-  <h1 class="site-title">
-    <a href="/">{{ .Site.Author.name }}</a>
-    <small class="site-subtitle">{{ .Site.Author.occupation }}</small>
+  <h1 class="site-title" itemscope itemtype="http://schema.org/Person">
+    <a href="/" itemprop="name">{{ .Site.Author.name }}</a>
+    <small class="site-subtitle" itemprop="jobTitle">{{ .Site.Author.occupation }}</small>
   </h1>
 
   <nav class="site-navigation">

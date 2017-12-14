@@ -1,8 +1,10 @@
 {{ partial "header.html" . }}
 
+{{ partial "skip-to-content.html" }}
+
 {{ partial "site-header.html" . }}
 
-<main id="content">
+<main id="content" class="site-content">
   <article class="page">
     {{ .Content }}
   </article>
