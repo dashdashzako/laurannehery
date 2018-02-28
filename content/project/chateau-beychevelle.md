@@ -1,7 +1,8 @@
 ---
 date: "2017-01-26T18:45:24+01:00"
 title: "Château Beychevelle"
-client: "Château Beychevelle – Saint-Julien"
+extendedTitle: "Château Beychevelle – Saint-Julien"
+catchPhrase: "Terres de vins et de légendes"
 miniature: "/img/projects/beychevelle/miniature.jpg"
 images:
   - "/img/projects/beychevelle/signature.jpg"
@@ -10,8 +11,6 @@ images:
 wide: false
 draft: false
 ---
-
-_« Terres de vins et de légendes »_
 
 Site internet présentant les légendes autour du château mais aussi son histoire, son
 vignoble et ses vins

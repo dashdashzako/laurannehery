@@ -1,14 +1,13 @@
 ---
 title: "Case Chronicles"
 date: 2018-02-28T15:14:18+01:00
-client: "Case Chronicles – IsCool Entertainment"
+extendedTitle: "Case Chronicles – IsCool Entertainment"
+catchPhrase: "Petites enquêtes entre amis"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
 wide: false
 draft: true
 ---
-
-« Petites enquêtes entre amis »
 
 Jeu vidéo sur Facebook
 But du jeu : fouiller des scènes de crime, trouver des indices et interroger les témoins

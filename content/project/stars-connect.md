@@ -1,14 +1,13 @@
 ---
 title: "Stars Connect"
 date: 2018-02-28T15:15:32+01:00
-client: "Stars Connect – IsCool Entertainment"
+extendedTitle: "Stars Connect – IsCool Entertainment"
+catchPhrase: "Gère ta maison de disques !"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
 wide: false
 draft: true
 ---
-
-« Gère ta maison de disques ! »
 
 Jeu vidéo sur mobiles et Facebook en partenariat avec Universal
 

@@ -1,8 +1,11 @@
 <div class="project-infos">
-  <div class="sticky">
-    <h2 class="project-title">{{ .Title }}</h2>
-    <p class="project-customer">{{ .Params.client }}</p>
-    <hr>
-    {{ .Content }}
-  </div>
+  <h2 class="project-title">
+    {{- if .Params.extendedTitle -}}
+      {{ .Params.extendedTitle }}
+    {{- else -}}
+      {{ .Title }}
+    {{- end -}}
+  </h2>
+  <hr>
+  {{ .Content }}
 </div>

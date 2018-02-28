@@ -1,9 +1,9 @@
 ---
-date: 2017-01-24T19:05:08+01:00
 title: "Palais des thés"
+date: 2017-01-24T19:05:08+01:00
+catchPhrase: "Bruits de Palais"
 miniature: "/img/projects/bruits-de-palais/n67-miniature.jpg"
 wide: false
-client: "Palais des Thés"
 images:
   - "/img/projects/bruits-de-palais/n67-couverture.jpg"
   - "/img/projects/bruits-de-palais/n67-1.jpg"
@@ -11,8 +11,6 @@ images:
   - "/img/projects/bruits-de-palais/n67-3.jpg"
 draft: false
 ---
-
-Bruits de Palais
 
 2 magazines conso 20 pages (numéros 67 et 68).  
 Pour les feuilleter : [palaisdesthes.com/fr/bruits-de-palais/archives](https://www.palaisdesthes.com/fr/bruits-de-palais/archives)

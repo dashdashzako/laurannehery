@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 <head>
+  {{ .Hugo.Generator }}
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="{{ .Site.Author.name }}">
-  {{ .Hugo.Generator }}
-  {{ partial "title" . }}
+  <meta property="og:url" content="{{ .Permalink }}">
+
+  {{- if .IsHome -}}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:type" content="website">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  {{- else -}}
+  <title>{{ .Title }} – {{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Title }} – {{ .Site.Title }}">
+  <meta property="og:type" content="article">
   <meta name="description" content="{{ .Description }}">
-  <link rel="canonical" href="{{ .Permalink }}">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/scribe.css">
+  {{- end -}}
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700">
+  <link rel="stylesheet" href="{{ "css/scribe.css" | relURL }}">
 </head>
 <body>
+
+{{ partial "skip-to-content.html" }}
+
+<div class="container">

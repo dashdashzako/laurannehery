@@ -1,14 +1,12 @@
 ---
 title: "Squla"
 date: 2018-02-28T15:05:07+01:00
+catchPhrase: "Des sourires et des résultats"
 miniature: "/img/projects/project-name/thumbnail.jpg"
-client: "Nom du client"
 images: ["/img/projects/project-name/image-1.jpg"]
 wide: false
 draft: true
 ---
-
-_« Des sourires et des résultats »_
 
 Plateforme de jeux à destination enfants pour apprendre en s’amusant
 (tous les niveaux de la maternelle au CM2, toutes les matières)

@@ -1,14 +1,27 @@
 {{ partial "header.html" . }}
 
-{{ partial "skip-to-content.html" }}
+<header class="site-header">
 
-{{ partial "site-header.html" . }}
+  <h1 class="site-title" itemscope itemtype="http://schema.org/Person">
+    <a href="/" itemprop="name">{{ .Site.Author.name }}</a>
+    <small class="site-subtitle" itemprop="jobTitle">{{ .Site.Author.occupation }}</small>
+  </h1>
+
+  <nav class="site-navigation">
+    {{ range where .Site.RegularPages "Section" "page" }}
+    <span class="navigation-item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+    {{ end }}
+  </nav>
+</header>
+
 
 <main id="content" class="site-content">
   <ul class="projects-list">
-    {{ range where .Data.Pages "Section" "project" }}
+    {{ range (where .Data.Pages "Section" "project").ByTitle -}}
+    <li class="projects-list-item">
       {{ partial "projects-list-item.html" . }}
-    {{ end }}
+    </li>
+    {{- end }}
   </ul>
 </main>
 

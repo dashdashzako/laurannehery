@@ -1,14 +1,12 @@
 ---
 title: "SCHRÖDER & SCHŸLER"
 date: 2018-02-28T15:11:43+01:00
-client: "SCHRÖDER & SCHŸLER"
+catchPhrase: "Une histoire, un style, un savoir-faire"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
 wide: false
 draft: true
 ---
-
-« Une histoire, un style, un savoir-faire »
 
 Site internet présentant la maison de négoce depuis sa création en 1739 : son
 histoire, son savoir-faire, son équipe et ses vins
