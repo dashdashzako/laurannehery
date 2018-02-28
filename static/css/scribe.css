@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --palette-light-color: #007A4B;
   --palette-dark-color: rgba(0, 90, 43, 1);
   --palette-dark-color-transparent: rgba(0, 90, 43, 0);
@@ -451,4 +451,4 @@ p {
   outline: 0;
   background-color: var(--palette-white);
   border: .5rem solid var(--palette-dark-color);
-}
+} */

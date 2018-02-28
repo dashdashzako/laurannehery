@@ -1,7 +1,7 @@
 languageCode = "fr"
 title = "Lauranne Héry"
-baseurl = "http://www.laurannehery.fr/"
-disableKinds=["RSS"]
+baseurl = "https://www.laurannehery.fr/"
+disableKinds = ["RSS"]
 googleAnalytics = "UA-90860364-1"
 
 [permalinks]
