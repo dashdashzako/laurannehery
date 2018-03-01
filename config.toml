@@ -3,6 +3,7 @@ title = "Lauranne Héry"
 baseurl = "https://www.laurannehery.fr/"
 disableKinds = ["RSS"]
 googleAnalytics = "UA-90860364-1"
+enableRobotsTXT = true
 
 [permalinks]
 page = "/:title/"
