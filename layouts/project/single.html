@@ -16,9 +16,9 @@
     </div>
 
     <div class="project-images">
-      {{ range .Params.images -}}
-      <img src="{{ . }}" alt="" class="project-image">
-      {{- end }}
+      {{ range .Resources.Match "images/*" }}
+      <img src="{{ .RelPermalink }}" alt="Image extraite du projet {{ .Title }}" class="project-image">
+      {{ end }}
     </div>
   </article>
 </main>
