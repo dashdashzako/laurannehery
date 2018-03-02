@@ -60,34 +60,34 @@ img {
   max-width: 100%;
 }
 
-a[href] {
+a {
   color: var(--palette-text-color);
   text-decoration: underline;
   text-decoration-skip-ink: auto;
   outline: 0;
 }
 
-a[href]:hover,
-a[href]:focus,
-a[href]:visited:hover,
-a[href]:visited:focus {
+a:hover,
+a:focus,
+a:visited:hover,
+a:visited:focus {
   color: var(--palette-text-color-alt);
 }
 
-a[href]:focus,
-a[href]:visited:focus {
+a:focus,
+a:visited:focus {
   outline: dotted var(--palette-text-color-alt) 2px;
 }
 
 @supports not (text-decoration-skip-ink: auto) {
-  a[href] {
+  a {
     text-decoration: none;
     background: linear-gradient(currentColor, currentColor) no-repeat;
     background-size: 100% 2px;
     background-position: 0 100%;
   }
 
-  .site-nav a {
+  .author-name {
     background: none;
   }
 }
@@ -115,13 +115,15 @@ section {
   margin-bottom: 1rem;
 }
 
-h1, .site-title {
+h1,
+.site-title {
   margin: 0 0 1rem;
   display: block;
 }
 
 .author-name {
   font-family: "Caveat", system, sans-serif;
+  text-decoration: none;
 }
 
 h2 {
@@ -156,7 +158,7 @@ p {
 
 blockquote {
   margin: 2rem 0 0;
-  padding: .5rem .5rem .5rem 3rem;
+  padding: .5rem 3rem;
   position: relative;
 
   background: var(--palette-text-color);
@@ -167,17 +169,27 @@ blockquote {
   font-size: 1.1rem;
 }
 
-  blockquote::before {
+  blockquote::before,
+  blockquote::after {
     position: absolute;
-    top: 4px;
-    left: 4px;
-
     font-size: 4rem;
     font-weight: bold;
+    display: block;
     line-height: 1;
+    height: 32px;
+    font-family: Arial, "system", sans-serif;
+  }
 
+  blockquote::before {
+    top: 6px;
+    left: 6px;
     content: "“";
-    font-family: "Arial", sans-serif;
+  }
+
+  blockquote::after {
+    bottom: 6px;
+    right: 6px;
+    content: "”";
   }
 
 .container {
@@ -263,7 +275,7 @@ blockquote {
   text-align: center;
 }
 
-  .projects-list-item a[href] {
+  .projects-list-item a {
     width: 100%;
     height: 250px;
 
@@ -287,8 +299,8 @@ blockquote {
     box-shadow: 2px 3px 2px var(--palette-shadow);
   }
 
-    .projects-list-item a[href]:hover,
-    .projects-list-item a[href]:focus {
+    .projects-list-item a:hover,
+    .projects-list-item a:focus {
       text-decoration: none;
       border-width: 10px;
       border-bottom-width: 2px;
@@ -318,7 +330,7 @@ blockquote {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .projects-list-item a[href] {
+  .projects-list-item a {
     width: 250px;
     height: 250px;
 
@@ -327,14 +339,14 @@ blockquote {
     justify-content: center;
   }
 
-    .projects-list-item a[href]:hover,
-    .projects-list-item a[href]:focus {
+    .projects-list-item a:hover,
+    .projects-list-item a:focus {
       border-bottom-width: 10px;
       outline: 0;
     }
 
-    .projects-list-item a[href]:hover article,
-    .projects-list-item a[href]:focus article {
+    .projects-list-item a:hover article,
+    .projects-list-item a:focus article {
       opacity: 1;
     }
 
@@ -393,6 +405,8 @@ blockquote {
 
 .project-images {
   padding: 1rem;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .project-image {
@@ -454,7 +468,7 @@ blockquote {
 
 /* Skip to content link */
 
-.a11y-skip[href] {
+.a11y-skip {
   position: absolute;
   top: -1000px;
   left: -1000px;
@@ -465,9 +479,9 @@ blockquote {
   text-decoration: none;
 }
 
-.a11y-skip[href]:active,
-.a11y-skip[href]:focus,
-.a11y-skip[href]:hover {
+.a11y-skip:active,
+.a11y-skip:focus,
+.a11y-skip:hover {
   left: 1rem;
   top: 1rem;
   width: auto;
