@@ -4,8 +4,7 @@ date: 2018-02-28T15:11:43+01:00
 catchPhrase: "Une histoire, un style, un savoir-faire"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
-wide: false
-draft: true
+draft: false
 ---
 
 Site internet présentant la maison de négoce depuis sa création en 1739 : son

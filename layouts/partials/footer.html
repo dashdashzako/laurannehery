@@ -1,4 +1,33 @@
+  <hr>
+
+  <footer class="site-footer">
+    © Lauranne Héry {{ now.Format "2006" }}
+    <br>
+    <span itemprop="telephone">
+      <span aria-hidden="true">&#128241;</span>
+      <a href="tel:0632337639" rel="nofollow">
+        06 32 33 76 39
+      </a>
+    </span>
+    <br>
+    <a href="mailto:laurannehery@gmail.com">laurannehery@gmail.com</a>
+  </footer>
+
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "url": "https://www.laurannehery.fr",
+  "address": "Bègles, France",
+  "email": "laurannehery@gmail.com",
+  "familyName": "Héry",
+  "givenName": "Lauranne",
+  "jobTitle": "Conceptrice-rédactrice indépendante",
+  "telephone": "06 32 33 76 39"
+}
+</script>
 
 {{ template "_internal/google_analytics.html" . }}
 

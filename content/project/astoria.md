@@ -4,8 +4,7 @@ date: 2018-02-28T15:03:02+01:00
 catchPhrase: "Une image, une histoire."
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
-wide: false
-draft: true
+draft: false
 ---
 
 Site internet dévoilant le making-off de chaque image réalisée par l’atelier Astoria

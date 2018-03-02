@@ -5,8 +5,7 @@ extendedTitle: "SUPER KIWI CASTLE RUN – IsCool Entertainment"
 catchPhrase: "Oyez, oyez, la course pour être un Super Kiwi, c’est par ici !"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
-wide: false
-draft: true
+draft: false
 ---
 
 Jeu vidéo sur mobiles et Facebook

@@ -1,22 +1,28 @@
 {{ partial "header.html" . }}
 
-<div class="site-header">
-  <div class="site-title" itemscope itemtype="http://schema.org/Person">
-    <a href="/" itemprop="name">{{ .Site.Author.name }}</a>
-    <small class="site-subtitle" itemprop="jobTitle">{{ .Site.Author.occupation }}</small>
-  </div>
-  <nav class="site-navigation">
-    {{ range where .Site.RegularPages "Section" "page" -}}
-    <span class="navigation-item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-    {{- end }}
-  </nav>
-</div>
+{{ partial "page-nav.html" . }}
 
 <main id="content" class="site-content">
   <article class="single-project">
-    {{ partial "project-infos.html" . }}
+    <div class="project-infos">
+      <h1 class="project-title">
+        {{- if .Params.extendedTitle -}}
+          {{ .Params.extendedTitle }}
+        {{- else -}}
+          {{ .Title }}
+        {{- end -}}
+      </h1>
 
-    {{ partial "project-images.html" . }}
+      <hr>
+
+      {{ .Content }}
+    </div>
+
+    <div class="project-images">
+      {{ range .Params.images -}}
+      <img src="{{ . }}" alt="" class="project-image">
+      {{- end }}
+    </div>
   </article>
 </main>
 

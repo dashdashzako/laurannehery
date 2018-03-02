@@ -3,7 +3,7 @@
 <header class="site-header">
 
   <h1 class="site-title" itemscope itemtype="http://schema.org/Person">
-    <a href="/" itemprop="name">{{ .Site.Author.name }}</a>
+    <a href="/" itemprop="name" class="author-name">{{ .Site.Author.name }}</a>
     <small class="site-subtitle" itemprop="jobTitle">{{ .Site.Author.occupation }}</small>
   </h1>
 
@@ -19,7 +19,11 @@
   <ul class="projects-list">
     {{ range (where .Data.Pages "Section" "project").ByTitle -}}
     <li class="projects-list-item">
-      {{ partial "projects-list-item.html" . }}
+      <a href="{{ .Permalink }}" style="background-image: url({{ .Params.miniature }});">
+        <article>
+          <h2 class="title">{{ .Title }}</h2>
+        </article>
+      </a>
     </li>
     {{- end }}
   </ul>

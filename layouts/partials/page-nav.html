@@ -1,0 +1,11 @@
+<div class="site-header">
+  <div class="site-title" itemscope itemtype="http://schema.org/Person">
+    <a href="/" itemprop="name" class="author-name">{{ .Site.Author.name }}</a>
+    <small class="site-subtitle" itemprop="jobTitle">{{ .Site.Author.occupation }}</small>
+  </div>
+  <nav class="site-navigation">
+    {{ range where .Site.RegularPages "Section" "page" -}}
+    <span class="navigation-item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+    {{- end }}
+  </nav>
+</div>

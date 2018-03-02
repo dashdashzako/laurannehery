@@ -7,7 +7,6 @@ images:
   - "/img/projects/bic/ayez-du-style-1.jpg"
   - "/img/projects/bic/ayez-du-style-2.jpg"
   - "/img/projects/bic/ayez-du-style-3.jpg"
-wide: false
 draft: false
 ---
 

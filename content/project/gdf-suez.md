@@ -4,8 +4,7 @@ date: 2018-02-28T15:06:20+01:00
 catchPhrase: "Les p’tits curieux"
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
-wide: false
-draft: true
+draft: false
 ---
 
 Kit pédagogique à destination des enseignants pour expliquer le cheminement du

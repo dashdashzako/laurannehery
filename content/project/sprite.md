@@ -4,8 +4,7 @@ date: 2018-02-28T15:01:49+01:00
 catchPhrase: "Refreshing truth"
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
-wide: false
-draft: true
+draft: false
 ---
 
 Posts facebook à destination des ado

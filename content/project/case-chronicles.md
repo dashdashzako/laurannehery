@@ -5,8 +5,7 @@ extendedTitle: "Case Chronicles – IsCool Entertainment"
 catchPhrase: "Petites enquêtes entre amis"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
-wide: false
-draft: true
+draft: false
 ---
 
 Jeu vidéo sur Facebook

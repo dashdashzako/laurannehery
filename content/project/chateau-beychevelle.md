@@ -8,7 +8,6 @@ images:
   - "/img/projects/beychevelle/signature.jpg"
   - "/img/projects/beychevelle/legendes.jpg"
   - "/img/projects/beychevelle/histoires.jpg"
-wide: false
 draft: false
 ---
 
