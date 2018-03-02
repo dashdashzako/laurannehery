@@ -202,10 +202,6 @@ blockquote {
   font-weight: normal;
 }
 
-  /* .site-title a[href],
-  .site-title a[href]:hover,
-  .site-title a[href]:focus { outline: 0; } */
-
 .site-subtitle {
   display: block;
   font-size: 1rem;
@@ -214,10 +210,6 @@ blockquote {
 .site-navigation {
   padding: 0;
 }
-
-  /* .site-navigation a,
-  .site-navigation a[href]:hover,
-  .site-navigation a[href]:focus { outline: 0; } */
 
 .navigation-item {
   display: block;
@@ -248,6 +240,7 @@ blockquote {
 
 /* ************************* */
 /* Site footer */
+
 .site-footer {
   padding: 1rem;
   font-size: 14px;
@@ -415,8 +408,15 @@ blockquote {
 }
 
 .project-title {
-  font-size: 2.4rem;
+  line-height: 1.4;
   text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .project-title {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
 }
 
 .project-infos {
@@ -425,31 +425,32 @@ blockquote {
   padding: 1rem;
 }
 
-  .project-infos .project-title::before,
-  .project-infos .project-title::after {
-    font-size: 1.4rem;
-  }
+.project-infos .project-title::before,
+.project-infos .project-title::after {
+  font-size: 1.4rem;
+}
 
-  .project-infos :last-child {
-    margin-bottom: 0;
-  }
+.project-infos :last-child {
+  margin-bottom: 0;
+}
 
-    .project-infos .project-title + hr {
-      margin: 2rem auto;
-    }
+.project-infos .project-title + hr {
+  margin: 2rem auto;
+}
 
-  .campaign-name {
-    font-style: italic;
-    font-weight: normal;
-    font-size: .8em;
-  }
-    .campaign-name::before {
-      content: "« ";
-    }
+.campaign-name {
+  font-style: italic;
+  font-weight: normal;
+  font-size: .8em;
+}
 
-    .campaign-name::after {
-      content: " »";
-    }
+.campaign-name::before {
+  content: "« ";
+}
+
+.campaign-name::after {
+  content: " »";
+}
 
 /* Skip to content link */
 
