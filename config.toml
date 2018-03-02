@@ -1,9 +1,10 @@
 languageCode = "fr"
 title = "Lauranne Héry"
+description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante de la région de Bordeaux"
 baseurl = "https://www.laurannehery.fr/"
 disableKinds = ["RSS"]
 googleAnalytics = "UA-90860364-1"
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [permalinks]
 page = "/:title/"
