@@ -2,7 +2,7 @@
 title: "Super Kiwi Castle Run"
 date: 2018-02-28T15:17:32+01:00
 extendedTitle: "SUPER KIWI CASTLE RUN – IsCool Entertainment"
-catchPhrase: "Oyez, oyez, la course pour être un Super Kiwi, c’est par ici !"
+campaignName: "Oyez, oyez, la course pour être un Super Kiwi, c’est par ici !"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
 draft: false

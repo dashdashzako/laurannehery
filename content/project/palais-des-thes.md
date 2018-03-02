@@ -1,7 +1,7 @@
 ---
 title: "Palais des thés"
 date: 2017-01-24T19:05:08+01:00
-catchPhrase: "Bruits de Palais"
+campaignName: "Bruits de Palais"
 miniature: "/img/projects/bruits-de-palais/n67-miniature.jpg"
 wide: false
 images:

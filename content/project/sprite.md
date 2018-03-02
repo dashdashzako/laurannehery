@@ -1,7 +1,7 @@
 ---
 title: "Sprite"
 date: 2018-02-28T15:01:49+01:00
-catchPhrase: "Refreshing truth"
+campaignName: "Refreshing truth"
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
 draft: false

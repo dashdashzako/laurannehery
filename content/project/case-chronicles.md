@@ -2,7 +2,7 @@
 title: "Case Chronicles"
 date: 2018-02-28T15:14:18+01:00
 extendedTitle: "Case Chronicles – IsCool Entertainment"
-catchPhrase: "Petites enquêtes entre amis"
+campaignName: "Petites enquêtes entre amis"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
 draft: false

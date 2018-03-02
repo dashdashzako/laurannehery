@@ -1,7 +1,7 @@
 ---
 title: "Squla"
 date: 2018-02-28T15:05:07+01:00
-catchPhrase: "Des sourires et des résultats"
+campaignName: "Des sourires et des résultats"
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
 draft: false

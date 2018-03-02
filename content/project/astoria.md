@@ -1,7 +1,7 @@
 ---
 title: "ASTORIA – Atelier d’image"
 date: 2018-02-28T15:03:02+01:00
-catchPhrase: "Une image, une histoire."
+campaignName: "Une image, une histoire."
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
 draft: false

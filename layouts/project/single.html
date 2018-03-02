@@ -6,11 +6,8 @@
   <article class="single-project">
     <div class="project-infos">
       <h1 class="project-title">
-        {{- if .Params.extendedTitle -}}
-          {{ .Params.extendedTitle }}
-        {{- else -}}
-          {{ .Title }}
-        {{- end -}}
+        {{ .Title }}<br>
+        <span class="campaign-name">{{ .Params.campaignName }}</span>
       </h1>
 
       <hr>

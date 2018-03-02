@@ -1,7 +1,7 @@
 ---
 title: "Générale D'Optique"
 date: 2018-02-28T14:59:48+01:00
-catchPhrase: "En mettre plein la vue"
+campaignName: "En mettre plein la vue"
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
 draft: false

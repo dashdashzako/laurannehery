@@ -1,7 +1,7 @@
 ---
 title: "GDF Suez"
 date: 2018-02-28T15:06:20+01:00
-catchPhrase: "Les p’tits curieux"
+campaignName: "Les p’tits curieux"
 miniature: "/img/projects/project-name/thumbnail.jpg"
 images: ["/img/projects/project-name/image-1.jpg"]
 draft: false

@@ -2,7 +2,7 @@
 title: "Stars Connect"
 date: 2018-02-28T15:15:32+01:00
 extendedTitle: "Stars Connect – IsCool Entertainment"
-catchPhrase: "Gère ta maison de disques !"
+campaignName: "Gère ta maison de disques !"
 images: ["/img/projects/project-name/image-1.jpg"]
 miniature: "/img/projects/project-name/thumbnail.jpg"
 draft: false

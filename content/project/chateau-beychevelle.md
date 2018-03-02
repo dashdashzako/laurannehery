@@ -2,7 +2,7 @@
 date: "2017-01-26T18:45:24+01:00"
 title: "Château Beychevelle"
 extendedTitle: "Château Beychevelle – Saint-Julien"
-catchPhrase: "Terres de vins et de légendes"
+campaignName: "Terres de vins et de légendes"
 miniature: "/img/projects/beychevelle/miniature.jpg"
 images:
   - "/img/projects/beychevelle/signature.jpg"

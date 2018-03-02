@@ -1,7 +1,7 @@
 ---
 title: "BIC"
 date: "2017-03-02T12:17:14+01:00"
-catchPhrase: "Ayez du style."
+campaignName: "Ayez du style."
 miniature: "/img/projects/bic/ayez-du-style-miniature.jpg"
 images:
   - "/img/projects/bic/ayez-du-style-1.jpg"
