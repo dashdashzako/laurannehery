@@ -1,14 +1,27 @@
+/*
+  Pantone PANTONE 709 CP
+  https://www.pantone.com/color-finder/709-CP
+  #E27A89
+ */
+
+/*
+  Pantone 13-1520 TCX Rose Quartz
+  https://www.pantone.com/color-finder/13-1520-TCX
+  #F7CAC9
+ */
+
+/*
+  Safe colors
+  #CB7473
+  #D89897
+ */
+
 @font-face {
   font-family: system;
   font-style: normal;
   font-weight: 400;
   src: local("system-ui"), local(".SFNSText-Light"), local("Segoe UI"), local("Roboto"), local("Oxygen-Sans"), local("Ubuntu"), local("Cantarell"), local("Helvetica Neue");
 }
-/*
-  Pantone PANTONE 709 CP
-  https://www.pantone.com/color-finder/709-CP
-  #E27A89
- */
 
 :root {
   --palette-text-color: #FFF;
@@ -122,7 +135,7 @@ h1,
 }
 
 .author-name {
-  font-family: "Caveat", system, sans-serif;
+  font-family: "Caveat", "system", sans-serif;
   text-decoration: none;
 }
 
