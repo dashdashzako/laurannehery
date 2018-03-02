@@ -13,4 +13,4 @@ But du jeu : courir le plus loin possible sans trépasser
 personnages, etc.)
 - Rédaction des supports de communication pour le lancement du jeu (site internet, e-mailings, bannières, posts Facebook, notifications sur mobiles, etc)
 
-> « Avant de te lancer dans ta quête, enfile tes meilleures chausses et étire tes mollets pour ne pas trépasser. Tu vas devoir courir fièrotement le plus loin et le plus longtemps possible en faisant face aux créatures mécréantes qui croiseront ton chemin (gardes, sorcières, dragons, etc.). Touche bravement ton écran pour monter, puis relâche pour atterrir et éviter ces vilains. »
+> Avant de te lancer dans ta quête, enfile tes meilleures chausses et étire tes mollets pour ne pas trépasser. Tu vas devoir courir fièrotement le plus loin et le plus longtemps possible en faisant face aux créatures mécréantes qui croiseront ton chemin (gardes, sorcières, dragons, etc.). Touche bravement ton écran pour monter, puis relâche pour atterrir et éviter ces vilains.

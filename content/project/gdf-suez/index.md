@@ -11,4 +11,4 @@ gaz aux enfants
 - Conception
 - Rédaction de l’intégralité des contenus
 
-> « Quand les p’tits curieux débordent d’énergie, les activités peuvent commencer ! »
+> Quand les p’tits curieux débordent d’énergie, les activités peuvent commencer !

@@ -16,6 +16,7 @@ personnages (personnalités et noms), ainsi que tous les textes et dialogues du 
 
 Fun fact
 
-> Carte Philippe Katerine
-« - Philippe Cacatherine -
-Quand il ne mange pas des bananes, Philippe Katerine aime d’adonner à son passe-temps favori : collectionner des cacas dans de petites boîtes datées et placées au congélateur. Et après tout, chacun sa merde. »
+> Carte Philippe Katerine  
+>  
+> – Philippe Cacatherine –  
+Quand il ne mange pas des bananes, Philippe Katerine aime d’adonner à son passe-temps favori : collectionner des cacas dans de petites boîtes datées et placées au congélateur. Et après tout, chacun sa merde.

@@ -10,4 +10,4 @@ draft: false
 - Conception
 - Rédaction de l’intégralité des contenus
 
-> « Style et petits prix font parfaitement la paire ! »
+> Style et petits prix font parfaitement la paire !

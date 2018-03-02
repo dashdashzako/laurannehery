@@ -9,8 +9,10 @@ Posts facebook à destination des ado
 
 - Conception et rédaction d’une série de vignettes à messages
 
-> « Les voyages forment la jeunesse.
-La puberté aussi. »
+> Les voyages forment la jeunesse.  
+> La puberté aussi.
 
-> « Fais-lui croire qu’il est le roi du monde
-Et assure-toi la place sur la planche. #titanic #teamrose »
+<!--  -->
+
+> Fais-lui croire qu’il est le roi du monde  
+> Et assure-toi la place sur la planche. #titanic #teamrose

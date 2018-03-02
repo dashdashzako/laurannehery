@@ -13,5 +13,5 @@ pour résoudre chaque enquête
 - Recherche de nom pour le jeu
 - Rédaction des supports de communication pour le lancement du jeu (e-mailings, bannières, posts Facebook, etc.)
 
-> « Aidez l’Inspecteur Labavette à traquer les criminels en récoltant des preuves en
-série ! »
+> Aidez l’Inspecteur Labavette à traquer les criminels en récoltant des preuves en
+série !

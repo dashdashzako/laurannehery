@@ -11,6 +11,6 @@ astoria-atelier.fr
 
 - Rédaction de l’intégralité des contenus
 
-> « Nous ne doutons pas que les Américains aient marché sur la Lune. Mais les
+> Nous ne doutons pas que les Américains aient marché sur la Lune. Mais les
 théories du complot, les jeux d’argumentation et les “preuves” évoquées nous
-amusent et nous captivent ! »
+amusent et nous captivent !

@@ -15,10 +15,14 @@ Pour jouer : [squla.fr](https://www.squla.fr/).
 - Conception-rédaction de contenus pour la plateforme de jeux (quiz)
 - Validation stylistique de l’ensemble des quiz créés par les enseignants
 
-> « Avec Squla, les enfants font des progrès grands comme ça ! »
+> Avec Squla, les enfants font des progrès grands comme ça !
 
-> « Selon toi, le mot “orque” est-il féminin ou masculin ?
-- Féminin
-- Masculin
-- Un peu les deux
-Réponse : Eh oui, on dit bien “une orque” ! »
+<!--  -->
+
+> Selon toi, le mot « orque » est-il féminin ou masculin ?  
+>
+> - Féminin  
+> - Masculin  
+> - Un peu les deux  
+>
+> Réponse : Eh oui, on dit bien « une orque » !

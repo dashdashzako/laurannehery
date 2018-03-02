@@ -14,7 +14,7 @@ histoire, son savoir-faire, son équipe et ses vins
 Pour visiter le site et découvrir l’histoire de cette maison de négoce :
 [www.schroder-schyler.com](http://www.schroder-schyler.com/).
 
-> « La Maison SCHRÖDER & SCHŸLER est riche d’une histoire captivante dans
+> La Maison SCHRÖDER & SCHŸLER est riche d’une histoire captivante dans
 laquelle les grands faits du passé se déclinent en de petites anecdotes… Celles que
 l’on se plait à raconter et partager. Découvrez quelques extraits d’une histoire écrite
-au fil des siècles. »
+au fil des siècles.
