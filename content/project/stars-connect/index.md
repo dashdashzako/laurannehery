@@ -1,5 +1,6 @@
 ---
 title: "Stars Connect – IsCool Entertainment"
+description: "Travail réalisé pour la création d'un jeu vidéo Facebook intitulé « Stars Connect »"
 date: 2018-02-28T15:15:32+01:00
 campaignName: "Gère ta maison de disques !"
 draft: false

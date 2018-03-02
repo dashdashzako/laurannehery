@@ -1,5 +1,6 @@
 ---
-title: "Générale D'Optique"
+title: "Générale D’Optique"
+description: "Détail du travail réalisé pour la création de catalogues saisonniers pour Générale D’Optique"
 date: 2018-02-28T14:59:48+01:00
 campaignName: "En mettre plein la vue"
 draft: false
