@@ -3,6 +3,7 @@ title: "Astoria – Atelier d’image"
 description: "Détail de la réalisation du site web de l’atelier Astoria"
 date: 2018-02-28T15:03:02+01:00
 campaignName: "Une image, une histoire."
+slug: "astoria-atelier-d-image"
 draft: false
 ---
 

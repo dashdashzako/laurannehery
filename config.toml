@@ -9,8 +9,8 @@ enableRobotsTXT = false
 description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante de la région de Bordeaux"
 
 [permalinks]
-page = "/:title/"
-project = "/portfolio/:title/"
+page = "/:slug/"
+project = "/portfolio/:slug/"
 
 [author]
 name = "Lauranne Héry"

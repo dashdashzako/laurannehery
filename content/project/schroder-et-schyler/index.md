@@ -3,6 +3,7 @@ title: "SCHRÖDER & SCHŸLER"
 description: "Détail de la réalisation du site web de la maison de négoce SCHRÖDER et SCHŸLER"
 date: 2018-02-28T15:11:43+01:00
 campaignName: "Une histoire, un style, un savoir-faire"
+slug: "schroder-et-schyler"
 draft: false
 ---
 

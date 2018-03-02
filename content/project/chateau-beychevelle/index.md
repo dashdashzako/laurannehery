@@ -3,6 +3,7 @@ title: "Château Beychevelle – Saint-Julien"
 description: "Détail de la réalisation du site web du Château Beychevelle - Saint-Julien"
 date: "2017-01-26T18:45:24+01:00"
 campaignName: "Terres de vins et de légendes"
+slug: "chateau-beychevelle-saint-julien"
 draft: false
 ---
 

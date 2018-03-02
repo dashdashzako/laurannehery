@@ -3,6 +3,7 @@ title: "Palais des Thés"
 description: "Détail du travail réalisé pour la création de magazines conso pour Palais des Thés"
 date: 2017-01-24T19:05:08+01:00
 campaignName: "Bruits de Palais"
+slug: "palais-des-thes"
 draft: false
 ---
 

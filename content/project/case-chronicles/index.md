@@ -3,6 +3,7 @@ title: "Case Chronicles – IsCool Entertainment"
 description: "Travail réalisé pour la création d'un jeu vidéo Facebook intitulé « Case Chronicles »"
 date: 2018-02-28T15:14:18+01:00
 campaignName: "Petites enquêtes entre amis"
+slug: "case-chronicles"
 draft: false
 ---
 
