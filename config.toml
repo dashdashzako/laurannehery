@@ -6,7 +6,7 @@ googleAnalytics = "UA-90860364-1"
 enableRobotsTXT = false
 
 [params]
-description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante de la région de Bordeaux"
+description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante"
 
 [permalinks]
 page = "/:slug/"
