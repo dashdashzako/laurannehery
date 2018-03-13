@@ -24,11 +24,13 @@
 }
 
 :root {
-  --palette-text-color: #FFF;
-  --palette-text-color-alt: #EEE;
-  --palette-background: #CB7473;
-  --palette-background-pale: #D89897;
+  --palette-text-color: #222;
+  --palette-text-color-alt: #888;
+  --palette-background: #EFEFEF;
+  --palette-background-pale: #EFEFEF;
   --palette-shadow: rgba(0, 0, 0, .1);
+  --palette-white: #FFFFFF;
+  --palette-pantone-rose-quartz: #F7CAC9;
 }
 
 *,
@@ -66,7 +68,7 @@ hr {
   display: block;
 
   border: 0;
-  border-top: 1px solid rgba(255, 255, 255, .83);
+  border-top: 3px solid var(--palette-text-color);
 }
 
 img {
@@ -174,10 +176,10 @@ blockquote {
   padding: .5rem 3rem;
   position: relative;
 
-  background: var(--palette-text-color);
-  color: var(--palette-background);
+  background: var(--palette-white);
+  color: var(--palette-text-color);
 
-  box-shadow: 2px 3px 2px var(--palette-shadow);
+  box-shadow: 2px 3px 2px var(--palette-shadow), 0 0 1px var(--palette-shadow);
 
   font-size: 1.1rem;
 }
@@ -304,20 +306,18 @@ blockquote {
     background-position: center;
     background-repeat: no-repeat;
 
-    border-width: 2px;
+    border-width: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: var(--palette-white);
 
-    transition: border-width .1s;
+    transition: border-color .15s;
     box-shadow: 2px 3px 2px var(--palette-shadow);
   }
 
     .projects-list-item a:hover,
     .projects-list-item a:focus {
       text-decoration: none;
-      border-width: 10px;
-      border-bottom-width: 2px;
-      /* outline: 0; */
+      border-color: var(--palette-pantone-rose-quartz);
     }
 
   .projects-list-item article {
@@ -326,10 +326,10 @@ blockquote {
   }
 
   .projects-list-item .title {
-    background: white;
-    color: var(--palette-background);
+    background: var(--palette-white);
+    color: var(--palette-text-color);
     margin: 0;
-    padding: .5rem;
+    padding: 1rem .5rem;
 
     font-weight: normal;
     text-align: center;
@@ -379,9 +379,7 @@ blockquote {
   .projects-list-item .title {
     display: inline-block;
     max-width: 210px;
-    border: 2px solid var(--palette-background);
-    padding: .5rem 1rem;
-    transition: transform .15s .05s ease-out;
+    padding: .8rem 1rem;
   }
 }
 
@@ -406,12 +404,29 @@ blockquote {
 
 .page {
   max-width: 900px;
+  margin: 0 auto;
   padding: 1rem;
 }
 
   .page h2 {
     margin-bottom: 2rem;
   }
+
+.author-picture {
+  overflow-x: hidden;
+}
+  .author-picture img {
+    min-width: 800px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+@media screen and (min-width: 800px) {
+  .author-picture img {
+    margin-left: 0;
+    transform: none;
+  }
+}
 
 /* */
 /* Single project */
@@ -426,8 +441,8 @@ blockquote {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  box-shadow: 2px 3px 2px var(--palette-shadow);
-  border: 1rem solid var(--palette-text-color);
+  box-shadow: 2px 3px 2px var(--palette-shadow), 0 0 1px var(--palette-shadow);
+  border: 1rem solid var(--palette-white);
 }
 
 .project-image + .project-image {

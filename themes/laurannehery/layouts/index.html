@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<header class="site-header">
+<header class="site-header container">
 
   <h1 class="site-title">
     <a href="/" class="author-name">{{ .Site.Author.name }}</a>
@@ -14,7 +14,7 @@
   </nav>
 </header>
 
-<main id="content" class="site-content">
+<main id="content" class="site-content container">
   <ul class="projects-list">
     {{ range (where .Data.Pages "Section" "project").ByTitle -}}
     {{ $thumbnail := .Resources.GetMatch "miniature*" }}
