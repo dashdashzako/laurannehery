@@ -3,6 +3,7 @@
     "public": "public",
     "ignore": [
       "firebase.json",
+      "deploy.sh",
       "**/.*",
       "**/node_modules/**"
     ]

@@ -1,3 +1,3 @@
 # laurannehery
 
-Sources of [www.laurannehery.fr](http://www.laurannehery.fr).
+Sources of [www.laurannehery.fr](https://www.laurannehery.fr).
