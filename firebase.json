@@ -5,7 +5,8 @@
       "firebase.json",
       "deploy.sh",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "sources/**"
     ]
   }
 }
