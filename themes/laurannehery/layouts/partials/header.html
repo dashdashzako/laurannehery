@@ -21,11 +21,18 @@
   <title>{{ .Site.Title }}</title>
   <meta property="og:title" content="{{ .Site.Title }}">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ "img/common/homework.jpg" | relURL }}">
   <meta name="description" content="{{ .Site.Params.description }}">
   {{- else -}}
   <title>{{ .Title }} – {{ .Site.Title }}</title>
   <meta property="og:title" content="{{ .Title }} – {{ .Site.Title }}">
   <meta property="og:type" content="article">
+  {{ $featuredImage := .Resources.GetMatch "featured.*" }}
+    {{- if $featuredImage -}}
+    <meta property="og:image" content="{{ $featuredImage.Permalink }}">
+    {{- else -}}
+    <meta property="og:image" content="{{ "img/common/homework.jpg" | absURL }}">
+    {{- end }}
   <meta name="description" content="{{ .Description }}">
   {{- end }}
 
