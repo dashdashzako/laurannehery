@@ -1,4 +1,5 @@
 languageCode = "fr"
+theme = "laurannehery"
 title = "Lauranne Héry"
 baseurl = "https://www.laurannehery.fr/"
 disableKinds = ["RSS", "section", "taxonomy", "taxonomyTerm"]

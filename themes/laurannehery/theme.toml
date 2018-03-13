@@ -1,0 +1,14 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Laurannehery"
+license = "MIT"
+description = ""
+homepage = "https://www.laurannehery.fr/"
+tags = []
+features = []
+min_version = "0.37"
+
+[author]
+  name = "Lauranne Héry"
+  homepage = "https://www.laurannehery.fr/"
