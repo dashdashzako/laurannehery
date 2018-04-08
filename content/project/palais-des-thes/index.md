@@ -11,4 +11,4 @@ draft: false
 2 magazines conso 20 pages (numéros 67 et 68).  
 Pour les feuilleter : [palaisdesthes.com/fr/bruits-de-palais/archives](https://www.palaisdesthes.com/fr/bruits-de-palais/archives)
 
-Rédaction de la couverture, l’édito, les articles et la der. de couv.
+- Rédaction de la couverture, l’édito, les articles et la der. de couv.
