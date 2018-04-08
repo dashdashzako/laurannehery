@@ -4,7 +4,8 @@ description: "Travail réalisé pour la création d'un jeu vidéo Facebook intit
 date: 2018-02-28T15:15:32+01:00
 campaignName: "Gère ta maison de disques !"
 slug: "stars-connect"
-quote: "Carte Philippe Katerine<br><br>– Philippe Cacatherine –<br>Quand il ne mange pas des bananes, Philippe Katerine aime d’adonner à son passe-temps favori : collectionner des cacas dans de petites boîtes datées et placées au congélateur. Et après tout, chacun sa merde."
+quote: "Carte Philippe Katerine<br><br>– Philippe Cacatherine –<br>Quand il ne mange pas des bananes, Philippe Katerine aime s’adonner à son passe-temps favori : collectionner des cacas dans de petites boîtes datées et placées au congélateur. Et après tout, chacun sa merde."
+weight: 999
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2018-02-28T14:59:48+01:00
 campaignName: "En mettre plein la vue"
 slug: "general-d-optique"
 quote: "Style et petits prix font parfaitement la paire !"
+weight: 1
 draft: false
 ---
 

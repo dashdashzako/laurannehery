@@ -5,6 +5,7 @@ date: 2018-02-28T15:17:32+01:00
 campaignName: "Oyez, oyez, la course pour être un Super Kiwi, c’est par ici !"
 slug: "super-kiwi-castle-run"
 quote: "Avant de te lancer dans ta quête, enfile tes meilleures chausses et étire tes mollets pour ne pas trépasser. Tu vas devoir courir fièrotement le plus loin et le plus longtemps possible en faisant face aux créatures mécréantes qui croiseront ton chemin (gardes, sorcières, dragons, etc.). Touche bravement ton écran pour monter, puis relâche pour atterrir et éviter ces vilains."
+weight: 999
 draft: false
 ---
 

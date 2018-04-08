@@ -4,6 +4,7 @@ description: "Détail du travail réalisé dans le cadre de la campagne « Les 
 date: 2018-02-28T15:06:20+01:00
 campaignName: "Les p’tits curieux"
 quote: "Quand les p’tits curieux débordent d’énergie, les activités peuvent commencer !"
+weight: 99
 draft: false
 ---
 

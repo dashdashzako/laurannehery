@@ -4,6 +4,7 @@ description: "Détail du travail réalisé dans le cadre de la campagne web « R
 date: 2018-02-28T15:01:49+01:00
 campaignName: "Refreshing truth"
 quote: "Fais-lui croire qu’il est le roi du monde<br>Et assure-toi la place sur la planche. #titanic #teamrose"
+weight: 199
 draft: false
 ---
 
