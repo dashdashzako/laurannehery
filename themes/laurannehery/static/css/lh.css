@@ -325,9 +325,11 @@ blockquote {
   }
 
   .projects-list-item .title {
-    color: var(--palette-text-color);
     margin: 0;
     padding: 1rem .5rem;
+
+    background-color: var(--palette-white);
+    color: var(--palette-text-color);
 
     text-align: center;
     text-transform: uppercase;
@@ -376,6 +378,8 @@ blockquote {
     display: inline-block;
     max-width: 210px;
     padding: .8rem 1rem;
+
+    background: none;
   }
 }
 
