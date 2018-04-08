@@ -325,15 +325,13 @@ blockquote {
   }
 
   .projects-list-item .title {
-    background: var(--palette-white);
     color: var(--palette-text-color);
     margin: 0;
     padding: 1rem .5rem;
 
-    font-weight: normal;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
 @media only screen and (min-width: 510px) {

@@ -1,5 +1,5 @@
 ---
-title: "Super Kiwi Castle Run – IsCool Entertainment"
+title: "Super Kiwi Castle Run"
 description: "Travail réalisé pour la création d'un jeu vidéo mobile et Facebook intitulé « Super Kiwi Castle Run »"
 date: 2018-02-28T15:17:32+01:00
 campaignName: "Oyez, oyez, la course pour être un Super Kiwi, c’est par ici !"
