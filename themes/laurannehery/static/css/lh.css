@@ -24,13 +24,12 @@
 }
 
 :root {
-  --palette-text-color: #222;
-  --palette-text-color-alt: #888;
+  --palette-text-color: #006865;
+  --palette-text-color-alt: #F7CAC9;
   --palette-background: #EFEFEF;
   --palette-background-pale: #EFEFEF;
   --palette-shadow: rgba(0, 0, 0, .1);
   --palette-white: #FFFFFF;
-  --palette-pantone-rose-quartz: #F7CAC9;
 }
 
 *,
@@ -68,7 +67,7 @@ hr {
   display: block;
 
   border: 0;
-  border-top: 3px solid var(--palette-text-color);
+  border-top: 1px solid var(--palette-text-color);
 }
 
 img {
@@ -228,13 +227,13 @@ blockquote {
 }
 
 .site-title {
-  font-size: 1.875rem;
+  font-size: 2.8rem;
   font-weight: normal;
 }
 
 .site-subtitle {
   display: block;
-  font-size: 1rem;
+  font-size: .875rem;
 }
 
 .site-navigation {
@@ -243,7 +242,6 @@ blockquote {
 
 .navigation-item {
   display: block;
-  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 900px) {
@@ -253,7 +251,6 @@ blockquote {
   }
 
   .site-title {
-    font-size: 2.4rem;
     margin: 0;
   }
 
@@ -276,6 +273,11 @@ blockquote {
   font-size: 14px;
   text-align: center;
 }
+
+  .site-footer a {
+    text-decoration: none;
+    background: none;
+  }
 
 /* ************************* */
 /* Home page */
@@ -309,18 +311,12 @@ blockquote {
     background-position: center;
     background-repeat: no-repeat;
 
-    border-width: 10px;
-    border-style: solid;
-    border-color: var(--palette-white);
-
-    transition: border-color .15s;
     box-shadow: 2px 3px 2px var(--palette-shadow);
   }
 
     .projects-list-item a:hover,
     .projects-list-item a:focus {
       text-decoration: none;
-      border-color: var(--palette-pantone-rose-quartz);
     }
 
   .projects-list-item article {
@@ -357,7 +353,6 @@ blockquote {
 
     .projects-list-item a:hover,
     .projects-list-item a:focus {
-      border-bottom-width: 10px;
       outline: 0;
     }
 
