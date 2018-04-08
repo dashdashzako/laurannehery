@@ -4,7 +4,7 @@ description: "Travail réalisé pour la création d'un jeu vidéo Facebook intit
 date: 2018-02-28T15:14:18+01:00
 campaignName: "Petites enquêtes entre amis"
 slug: "case-chronicles"
-quote: "Aidez l’Inspecteur Labavette à traquer les criminels en récoltant des preuves en série !"
+quote: "Aidez l’Inspecteur Labavette à traquer les criminels en récoltant des preuves en série !"
 weight: 999
 draft: false
 ---

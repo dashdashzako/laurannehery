@@ -12,6 +12,6 @@ draft: false
 Site internet présentant les légendes autour du château mais aussi son histoire, son vignoble et ses vins
 
 - Recherches sur les légendes et l’histoire du château
-- Rédaction de la signature de marque et des contenus des rubriques « Des légendes pour rêver » et « un peu d’Histoire pour comprendre »
+- Rédaction de la signature de marque et des contenus des rubriques « Des légendes pour rêver » et « un peu d’Histoire pour comprendre »
 
 Pour visiter le site et découvrir les légendes de Beychevelle : [beychevelle.com](http://beychevelle.com/)
