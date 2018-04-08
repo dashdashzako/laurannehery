@@ -4,6 +4,7 @@ description: "Détail du travail réalisé pour la création de catalogues saiso
 date: 2018-02-28T14:59:48+01:00
 campaignName: "En mettre plein la vue"
 slug: "general-d-optique"
+quote: "Style et petits prix font parfaitement la paire !"
 draft: false
 ---
 
@@ -11,5 +12,3 @@ draft: false
 
 - Conception
 - Rédaction de l’intégralité des contenus
-
-> Style et petits prix font parfaitement la paire !

@@ -173,7 +173,7 @@ p {
 
 blockquote {
   margin: 2rem 0 0;
-  padding: .5rem 3rem;
+  padding: 1rem 3rem;
   position: relative;
 
   background: var(--palette-white);
@@ -182,17 +182,20 @@ blockquote {
   box-shadow: 2px 3px 2px var(--palette-shadow), 0 0 1px var(--palette-shadow);
 
   font-size: 1.1rem;
+  font-style: italic;
 }
 
   blockquote::before,
   blockquote::after {
     position: absolute;
-    font-size: 4rem;
-    font-weight: bold;
     display: block;
-    line-height: 1;
     height: 32px;
+    font-size: 4rem;
+    line-height: 1;
+
     font-family: Arial, "system", sans-serif;
+    font-style: normal;
+    font-weight: bold;
   }
 
   blockquote::before {
@@ -462,7 +465,7 @@ blockquote {
 }
 
 .project-infos {
-  max-width: 600px;
+  max-width: 900px;
   margin: 2rem auto 0;
   padding: 1rem;
 }
@@ -492,6 +495,26 @@ blockquote {
 
 .campaign-name::after {
   content: " »";
+}
+
+.project-text {
+  word-break: keep-all;
+}
+
+@media screen and (min-width: 800px) {
+  .project-text {
+    display: flex;
+  }
+
+  .project-text-content {
+    flex: 0 0 calc(60% - 1rem);
+    margin-right: 1rem;
+  }
+
+  .project-quote {
+    margin: 0;
+    flex: 0 0 40%;
+  }
 }
 
 /* Skip to content link */

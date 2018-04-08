@@ -13,7 +13,14 @@
 
       <hr>
 
-      {{ .Content }}
+      <div class="project-text">
+        <div class="project-text-content">
+          {{ .Content }}
+        </div>
+        <blockquote class="project-quote">
+          {{ .Params.quote | safeHTML }}
+        </blockquote>
+      </div>
     </div>
 
     <div class="project-images">
