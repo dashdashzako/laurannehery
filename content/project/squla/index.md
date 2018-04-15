@@ -8,7 +8,7 @@ weight: 998
 draft: false
 ---
 
-Plateforme de jeux à destination enfants pour apprendre en s’amusant (tous les niveaux de la maternelle au CM2, toutes les matières)
+Plateforme de jeux à destination des enfants pour apprendre en s’amusant (tous les niveaux de la maternelle au CM2, toutes les matières)
 
 Pour jouer : [squla.fr](https://www.squla.fr/)
 
