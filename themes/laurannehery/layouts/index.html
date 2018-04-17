@@ -3,15 +3,11 @@
 <header class="site-header container">
 
   <h1 class="site-title">
-    <a href="/" class="author-name">{{ .Site.Author.name }}</a>
-    <small class="site-subtitle">{{ .Site.Author.occupation }}</small>
+    {{ partial "heading-content.html" . }}
   </h1>
 
-  <nav class="site-navigation">
-    {{ range where .Site.RegularPages "Section" "page" }}
-    <span class="navigation-item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-    {{ end }}
-  </nav>
+  {{ partial "site-navigation.html" . }}
+
 </header>
 
 <main id="content" class="site-content container">

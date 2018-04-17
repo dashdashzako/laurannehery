@@ -136,8 +136,12 @@ h1,
 }
 
 .author-name {
-  font-family: "Caveat", "system", sans-serif;
   text-decoration: none;
+}
+
+.author-name,
+.logo {
+  display: block;
 }
 
 h2 {
@@ -210,7 +214,7 @@ blockquote {
   }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -223,7 +227,7 @@ blockquote {
 /* Site Header */
 
 .site-header {
-  padding: 1rem;
+  padding: 10px;
 }
 
 .site-title {
@@ -336,6 +340,10 @@ blockquote {
   }
 
 @media only screen and (min-width: 575px) {
+
+  .site-header {
+    padding: 10px 20px;
+  }
 
   .projects-list-item {
     width: 270px;
