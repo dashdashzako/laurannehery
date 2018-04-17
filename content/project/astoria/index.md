@@ -7,7 +7,7 @@ slug: "astoria-atelier-d-image"
 quote: "Nous ne doutons pas que les Américains aient marché sur la Lune. Mais les
 théories du complot, les jeux d’argumentation et les « preuves » évoquées nous
 amusent et nous captivent !"
-weight: 1
+weight: 80
 draft: false
 ---
 

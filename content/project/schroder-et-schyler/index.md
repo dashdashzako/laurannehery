@@ -5,7 +5,7 @@ date: 2018-02-28T15:11:43+01:00
 campaignName: "Une histoire, un style, un savoir-faire"
 slug: "schroder-et-schyler"
 quote: "La Maison SCHRÖDER & SCHŸLER est riche d’une histoire captivante dans laquelle les grands faits du passé se déclinent en de petites anecdotes… Celles que l’on se plait à raconter et partager. Découvrez quelques extraits d’une histoire écrite au fil des siècles."
-weight: 99
+weight: 60
 draft: false
 ---
 
