@@ -284,34 +284,33 @@ blockquote {
 
 .projects-list {
   margin: 2rem auto 4rem;
-  display: grid;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .projects-list-item {
-  height: 250px;
+  width: 100%;
+  margin: 0 0 20px 0;
+
   list-style: none;
   text-align: center;
 }
 
   .projects-list-item a {
     width: 100%;
-    height: 250px;
-
-    margin: 0 auto;
+    height: calc(100vw - 20px);
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-end;
 
     background-color: transparent;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    box-shadow: 2px 3px 2px var(--palette-shadow);
   }
 
     .projects-list-item a:hover,
@@ -336,29 +335,48 @@ blockquote {
     font-size: 1.1rem;
   }
 
-@media only screen and (min-width: 510px) {
-  .projects-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+@media only screen and (min-width: 575px) {
+
+  .projects-list-item {
+    width: 270px;
+
+    padding: 0 10px;
+
+    justify-content: space-between;
+    align-items: center;
   }
+
+    .projects-list-item:nth-of-type(2n) {
+      margin-right: 0;
+    }
 
   .projects-list-item a {
     width: 250px;
     height: 250px;
 
-    padding: 0;
-
     justify-content: center;
+    text-decoration: none;
+
+    background-size: 100%;
+    transition: background-size .15s ease-out;
   }
 
     .projects-list-item a:hover,
     .projects-list-item a:focus {
       outline: 0;
+
+      background-size: 110%;
     }
 
     .projects-list-item a:hover article,
     .projects-list-item a:focus article {
+      background-color: rgba(255, 255, 255, .9);
+    }
+
+    .projects-list-item a:hover .title,
+    .projects-list-item a:focus .title {
       opacity: 1;
+      transform: scale3d(1, 1, 1);
     }
 
   .projects-list-item article {
@@ -368,10 +386,9 @@ blockquote {
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(255, 255, 255, .9);
+    background-color: transparent;
 
-    opacity: 0;
-    transition: opacity .25s ease-out;
+    transition: background-color .2s ease-out;
   }
 
   .projects-list-item .title {
@@ -380,22 +397,10 @@ blockquote {
     padding: .8rem 1rem;
 
     background: none;
-  }
-}
+    opacity: 0;
+    transform: scale3d(1.3, 1.3, 1.3);
 
-@media only screen and (min-width: 770px) {
-  .projects-list {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media only screen and (min-width: 920px) {
-  /* .projects-list-item .title {} */
-}
-
-@media only screen and (min-width: 1040px) {
-  .projects-list {
-    grid-template-columns: repeat(4, 1fr);
+    transition: opacity .4s ease-out, transform .2s ease-out;
   }
 }
 
