@@ -263,6 +263,7 @@ blockquote {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    align-self: flex-end;
   }
 
   .navigation-item {
