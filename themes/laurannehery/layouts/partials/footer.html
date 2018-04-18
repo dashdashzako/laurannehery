@@ -2,6 +2,11 @@
 <div class="container">
   <footer class="site-footer">
     © Lauranne Héry
+
+    {{- if .Params.ExtraFooter -}}
+      <br>
+      {{ .Params.ExtraFooter }}
+    {{- end }}
   </footer>
 </div>
 
