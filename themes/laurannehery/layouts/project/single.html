@@ -8,7 +8,7 @@
       <h1 class="project-title">
         {{- .Title -}}
         <br>
-        <span class="campaign-name">{{ .Params.campaignName }}</span>
+        <span class="campaign-name">{{ .Params.campaignName | safeHTML }}</span>
       </h1>
 
       <hr>
