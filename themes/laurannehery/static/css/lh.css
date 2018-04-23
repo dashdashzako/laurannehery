@@ -569,9 +569,9 @@ a[href="#menu"] {
   text-decoration: none;
 }
 
-.a11y-skip:active,
 .a11y-skip:focus,
-.a11y-skip:hover {
+.a11y-skip:hover,
+.a11y-skip:active {
   left: 1rem;
   top: 1rem;
   width: auto;
@@ -579,7 +579,8 @@ a[href="#menu"] {
   padding: .5rem;
   overflow: visible;
   outline: 0;
-  background-color: var(--palette-background);
+  background: var(--palette-background);
   border: .5rem solid var(--palette-text-color);
+  color: var(--palette-text-color);
   text-decoration: none;
 }
