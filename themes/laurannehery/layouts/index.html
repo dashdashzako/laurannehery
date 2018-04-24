@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<header class="site-header container">
+<header id="menu" class="site-header container">
   <h1 class="site-title">
     {{ partial "heading-content.html" . }}
   </h1>
@@ -23,5 +23,9 @@
     {{- end }}
   </ul>
 </main>
+
+<nav class="container handheld-only">
+  <a href="#menu" aria-label="Revenir en haut de la page">↑</a>
+</nav>
 
 {{ partial "footer.html" . }}

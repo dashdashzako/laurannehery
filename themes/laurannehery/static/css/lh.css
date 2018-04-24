@@ -559,6 +559,13 @@ a[href="#menu"] {
     color: var(--palette-white);
   }
 
+/* Mobile stuff */
+
+@media screen and (min-width: 801px) {
+  .handheld-only {
+    display: none;
+  }
+}
 
 /* Skip to content link */
 
