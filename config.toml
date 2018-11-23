@@ -5,6 +5,7 @@ baseurl = "https://www.laurannehery.fr/"
 disableKinds = ["RSS", "section", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-90860364-1"
 enableRobotsTXT = false
+removePathAccents = true
 
 [params]
 description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante"
