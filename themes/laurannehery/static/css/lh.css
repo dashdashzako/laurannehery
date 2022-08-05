@@ -51,6 +51,7 @@ html {
   color: var(--palette-text-color);
   background-color: var(--palette-background);
   background-image: linear-gradient(to bottom, var(--palette-background) 0, var(--palette-background) 500px, var(--palette-background-pale) 900px);
+  scroll-behavior: smooth;
 }
 
 body {
