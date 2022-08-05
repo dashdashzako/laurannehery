@@ -10,14 +10,12 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Setup Hugo
+      - name: Hugo Setup
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.37'
-          # extended: true
 
       - name: Build
         run: hugo --minify
