@@ -11,7 +11,7 @@
 
 <main id="content" class="site-content container">
   <ul class="projects-list">
-    {{ range (where .Data.Pages "Section" "project") -}}
+    {{ range (where .Site.Pages "Section" "project") -}}
     {{ $thumbnail := .Resources.GetMatch "miniature*" }}
     <li class="projects-list-item">
       <a href="{{ .Permalink }}" style="background-image: url({{- with $thumbnail -}}{{ .RelPermalink }}{{- end -}});">
