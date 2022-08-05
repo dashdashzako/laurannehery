@@ -78,7 +78,6 @@ img {
 a {
   color: var(--palette-text-color);
   text-decoration: underline;
-  text-decoration-skip-ink: auto;
   outline: 0;
 }
 
@@ -92,19 +91,6 @@ a:visited:focus {
 a:focus,
 a:visited:focus {
   outline: dotted var(--palette-text-color-alt) 2px;
-}
-
-@supports not (text-decoration-skip-ink: auto) {
-  a {
-    text-decoration: none;
-    background: linear-gradient(currentColor, currentColor) no-repeat;
-    background-size: 100% 2px;
-    background-position: 0 100%;
-  }
-
-  .author-name {
-    background: none;
-  }
 }
 
 ol,
