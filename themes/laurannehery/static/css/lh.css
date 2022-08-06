@@ -201,7 +201,8 @@ blockquote {
   }
 
 .container {
-  max-width: 1100px;
+  /* max-width: calc(5 * 270px + 4 * 0.25rem); */
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -277,11 +278,11 @@ blockquote {
 
 .projects-list {
   margin: 2rem auto 4rem;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .projects-list-item {
@@ -328,28 +329,38 @@ blockquote {
     font-size: 1.1rem;
   }
 
-@media only screen and (min-width: 575px) {
+@media only screen and (min-width: 540px) {
+
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-rows: 270px; */
+    grid-gap: 0px;
+  }
 
   .site-header {
     padding: 10px 20px;
   }
 
   .projects-list-item {
-    width: 270px;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    height: 100%;
 
-    padding: 0 10px;
+    /* padding: 0 10px; */
+    margin: 0;
 
     justify-content: space-between;
     align-items: center;
   }
 
-    .projects-list-item:nth-of-type(2n) {
+    /* .projects-list-item:nth-of-type(2n) {
       margin-right: 0;
-    }
+    } */
 
   .projects-list-item a {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
 
     justify-content: center;
     text-decoration: none;
@@ -398,6 +409,53 @@ blockquote {
     transform: scale(1.3);
     transition: opacity .2s ease-out, transform .3s ease-out;
   }
+}
+
+@media only screen and (min-width: 810px) {
+  .projects-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .projects-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .projects-list-item:nth-child(1){
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .projects-list-item:nth-child(n + 2) {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+  .projects-list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+    .projects-list-item:nth-child(1){
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .projects-list-item:nth-child(2),
+    .projects-list-item:nth-child(5) {
+      aspect-ratio: 2 / 1;
+      grid-column: span 2;
+      grid-row: span 1;
+    }
+
+    .projects-list-item:nth-child(3),
+    .projects-list-item:nth-child(4)
+    .projects-list-item:nth-child(n + 6) {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
 }
 
 /* */
