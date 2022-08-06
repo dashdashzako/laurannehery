@@ -373,7 +373,7 @@ blockquote {
     .projects-list-item a:hover .title,
     .projects-list-item a:focus .title {
       opacity: 1;
-      transform: scale3d(1, 1, 1);
+      transform: scale(1);
     }
 
   .projects-list-item article {
@@ -395,9 +395,8 @@ blockquote {
 
     background: none;
     opacity: 0;
-    transform: scale3d(1.3, 1.3, 1.3);
-
-    transition: opacity .4s ease-out, transform .2s ease-out;
+    transform: scale(1.3);
+    transition: opacity .2s ease-out, transform .3s ease-out;
   }
 }
 
