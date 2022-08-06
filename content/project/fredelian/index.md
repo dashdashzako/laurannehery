@@ -9,6 +9,6 @@ draft: false
 ---
 
 Site internet présentant la Maison Frédélian, pâtisserie et salon de thé depuis 1939.  
-Pour vous mettre en appétit, c’est par ici : [www.fredelian-capferret.com](http://www.fredelian-capferret.com/)
+Pour vous mettre en appétit, c’est par ici : [www.fredelian-capferret.com](https://www.fredelian-capferret.com)
 
 - Conception et rédaction de l’intégralité des contenus du site

@@ -16,6 +16,6 @@ Astoria
 
 Ici, découvrez un zoom sur le projet « La théorie des complots ».  
 Et pour visiter le site et les coulisses de chaque projet :  
-[astoria-atelier.fr](http://astoria-atelier.fr/)
+[astoria-atelier.fr](https://astoria-atelier.fr)
 
 - Rédaction de l’intégralité des contenus

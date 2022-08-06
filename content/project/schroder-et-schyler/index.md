@@ -14,4 +14,4 @@ Site internet présentant la maison de négoce depuis sa création en 1739 : so
 - Recherches sur l’histoire de la maison (anecdotes et grands faits)
 - Rédaction de la signature de marque et des contenus des rubriques « Histoire », « Savoir-faire », « Nos vins » (introductions) et « Interlocuteurs »
 
-Pour visiter le site et découvrir l’histoire de cette maison : [www.schroder-schyler.com](http://www.schroder-schyler.com/).
+Pour visiter le site et découvrir l’histoire de cette maison : [www.schroder-schyler.com](https://www.schroder-schyler.com).
