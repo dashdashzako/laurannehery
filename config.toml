@@ -7,6 +7,9 @@ googleAnalytics = "UA-90860364-1"
 enableRobotsTXT = false
 removePathAccents = true
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante"
 
