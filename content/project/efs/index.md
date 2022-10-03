@@ -1,5 +1,5 @@
 ---
-title: "Établissement Français du Sang"
+title: "Établissement Français du Sang – Kit pédagogique"
 description: "Détail du travail réalisé pour l'Établissement Français du Sang dans le cadre de la campagne « Tout le monde peut être un super-héros du quotidien ! »"
 date: 2018-04-18T09:49:21+02:00
 campaignName: "Tout le monde peut être un super-héros du quotidien !"
