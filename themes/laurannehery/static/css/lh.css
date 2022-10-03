@@ -351,7 +351,7 @@ blockquote {
     justify-content: space-between;
     align-items: center;
 
-    border: 1px solid var(--palette-background);
+    border: 4px solid var(--palette-background);
   }
 
   .projects-list-item a {
