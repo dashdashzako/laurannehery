@@ -374,7 +374,7 @@ blockquote {
 
     .projects-list-item a:hover article,
     .projects-list-item a:focus article {
-      background-color: rgba(255, 255, 255, .9);
+      background-color: rgba(255, 255, 255, .95);
     }
 
     .projects-list-item a:hover .title,
