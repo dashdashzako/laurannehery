@@ -104,7 +104,7 @@ ol ol,
 ul ul,
 ul ol,
 ol ul {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 li {
@@ -531,7 +531,7 @@ blockquote {
   font-size: 1.4rem;
 }
 
-.project-infos :last-child {
+.project-infos > :last-child {
   margin-bottom: 0;
 }
 
