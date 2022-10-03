@@ -334,7 +334,6 @@ blockquote {
   .projects-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-auto-rows: 270px; */
     grid-gap: 0px;
   }
 
@@ -347,16 +346,13 @@ blockquote {
     width: 100%;
     height: 100%;
 
-    /* padding: 0 10px; */
     margin: 0;
 
     justify-content: space-between;
     align-items: center;
-  }
 
-    /* .projects-list-item:nth-of-type(2n) {
-      margin-right: 0;
-    } */
+    border: 1px solid var(--palette-background);
+  }
 
   .projects-list-item a {
     width: 100%;
@@ -649,7 +645,7 @@ a[href="#menu"] {
 .a11y-skip:focus,
 .a11y-skip:hover,
 .a11y-skip:active {
-  left: 1rem;
+  left: 50%;
   top: 1rem;
   width: auto;
   height: auto;
@@ -660,4 +656,6 @@ a[href="#menu"] {
   border: .5rem solid var(--palette-text-color);
   color: var(--palette-text-color);
   text-decoration: none;
+  clip: initial;
+  transform: translate3d(-50%, 0, 0);
 }
