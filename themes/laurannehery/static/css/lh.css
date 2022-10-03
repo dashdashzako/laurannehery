@@ -278,11 +278,6 @@ blockquote {
 
 .projects-list {
   margin: 2rem auto 4rem;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center; */
 }
 
 .projects-list-item {
@@ -434,10 +429,13 @@ blockquote {
     grid-template-columns: repeat(5, 1fr);
   }
 
-    .projects-list-item:nth-child(1){
+    .projects-list-item:nth-child(1) {
       grid-column: span 2;
       grid-row: span 2;
     }
+      .projects-list-item:nth-child(1) .title {
+        font-size: 1.4rem;
+      }
 
     .projects-list-item:nth-child(2),
     .projects-list-item:nth-child(5) {
