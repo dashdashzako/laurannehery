@@ -10,7 +10,7 @@ removePathAccents = true
 unsafe = true
 
 [params]
-description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante"
+description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante EI"
 
 [permalinks]
 page = "/:slug/"
@@ -18,4 +18,4 @@ project = "/portfolio/:slug/"
 
 [author]
 name = "Lauranne Héry"
-occupation = "Conceptrice-rédactrice indépendante"
+occupation = "Conceptrice-rédactrice indépendante EI"

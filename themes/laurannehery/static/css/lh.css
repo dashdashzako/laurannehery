@@ -116,11 +116,16 @@ section {
   margin-bottom: 1rem;
 }
 
+h1 {
+  font-weight: 900;
+}
+
 h1,
 .site-title {
   margin: 0 0 1rem;
   display: block;
 }
+
 
 .author-name {
   text-decoration: none;
@@ -171,6 +176,7 @@ blockquote {
 
   box-shadow: 2px 3px 2px var(--palette-shadow), 0 0 1px var(--palette-shadow);
 
+  font-family: "Merriweather", serif;
   font-size: 1.1rem;
   font-style: italic;
 }
@@ -504,12 +510,13 @@ blockquote {
 
 .project-title {
   line-height: 1.4;
+  font-family: "Merriweather", serif;
   text-align: center;
 }
 
 @media screen and (min-width: 700px) {
   .project-title {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     line-height: 1.2;
   }
 }
