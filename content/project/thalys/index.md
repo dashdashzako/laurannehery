@@ -9,7 +9,7 @@ weight: 30
 draft: false
 ---
 
-Pages destinations (Paris, Amsterdam, Cologne, Bruxelles) du site internet de la
+Recherche et rédaction des contenus des pages destinations (Paris, Amsterdam, Cologne, Bruxelles) du site internet de la
 marque
 
 Pour les découvrir et partir en voyage :
@@ -18,6 +18,3 @@ Pour les découvrir et partir en voyage :
 - [Bruxelles](https://www.thalys.com/fr/fr/destinations/bruxelles)
 - [Cologne](https://www.thalys.com/fr/fr/destinations/cologne)
 - [Amsterdam](https://www.thalys.com/fr/fr/destinations/amsterdam)
-
-- Recherche de contenus
-- Rédactions des contenus
