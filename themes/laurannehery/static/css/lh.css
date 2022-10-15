@@ -163,7 +163,7 @@ p {
 
 blockquote {
   margin: 2rem 0 0;
-  padding: 1rem 3rem;
+  padding: 1.5rem 3rem;
   position: relative;
 
   background: var(--palette-white);
@@ -179,7 +179,7 @@ blockquote {
   blockquote::after {
     position: absolute;
     display: block;
-    height: 32px;
+    height: 2rem;
     font-size: 4rem;
     line-height: 1;
 
@@ -189,14 +189,14 @@ blockquote {
   }
 
   blockquote::before {
-    top: 0;
-    left: 6px;
+    top: 0.5rem;
+    left: 0.5rem;
     content: "“";
   }
 
   blockquote::after {
-    bottom: 2px;
-    right: 6px;
+    bottom: 0.5rem;
+    right: 0.5rem;
     content: "”";
   }
 
@@ -563,6 +563,7 @@ blockquote {
 
   .project-quote {
     margin: 0;
+    align-self: flex-start;
     flex: 0 0 40%;
   }
 }
