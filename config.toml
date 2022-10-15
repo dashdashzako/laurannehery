@@ -3,7 +3,6 @@ theme = "laurannehery"
 title = "Lauranne Héry"
 baseurl = "https://www.laurannehery.fr/"
 disableKinds = ["RSS", "section", "taxonomy", "taxonomyTerm"]
-googleAnalytics = "UA-90860364-1"
 enableRobotsTXT = false
 removePathAccents = true
 
