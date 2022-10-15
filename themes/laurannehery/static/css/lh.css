@@ -419,7 +419,7 @@ blockquote {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .projects-list-item:nth-child(1){
+  /* .projects-list-item:nth-child(1){
       grid-column: span 2;
       grid-row: span 2;
     }
@@ -427,7 +427,7 @@ blockquote {
     .projects-list-item:nth-child(n + 2) {
       grid-column: span 1;
       grid-row: span 1;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1350px) {
@@ -435,7 +435,7 @@ blockquote {
     grid-template-columns: repeat(5, 1fr);
   }
 
-    .projects-list-item:nth-child(1) {
+    /* .projects-list-item:nth-child(1) {
       grid-column: span 2;
       grid-row: span 2;
     }
@@ -455,7 +455,7 @@ blockquote {
     .projects-list-item:nth-child(n + 6) {
       grid-column: span 1;
       grid-row: span 1;
-    }
+    } */
 }
 
 /* */
