@@ -1,11 +1,7 @@
 {{ partial "header.html" . }}
 
-{{ partial "page-nav.html" . }}
-
 <main id="content" class="site-content container">
-  <article class="page">
-    {{ .Content }}
-  </article>
+  <article class="page">{{ .Content }}</article>
 </main>
 
 {{ partial "footer.html" . }}

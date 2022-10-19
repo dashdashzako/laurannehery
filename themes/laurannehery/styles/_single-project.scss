@@ -1,0 +1,88 @@
+.project-page {
+
+  .project-content {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+
+  .project-images {
+    padding: 1rem;
+  }
+
+  .project-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 3px 2px var(--palette-shadow), 0 0 1px var(--palette-shadow);
+    border: 1rem solid var(--palette-white);
+  }
+
+  .project-image + .project-image {
+    margin-top: 1rem;
+  }
+
+  .project-title {
+    font-family: "Merriweather", serif;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 700px) {
+    .project-title {
+      font-size: 2.8rem;
+    }
+  }
+
+  .project-infos {
+    max-width: 900px;
+    margin: 2rem auto 0;
+    padding: 1rem;
+  }
+
+  .project-infos .project-title::before,
+  .project-infos .project-title::after {
+    font-size: 1.4rem;
+  }
+
+  .project-infos > :last-child {
+    margin-bottom: 0;
+  }
+
+  .project-infos .project-title + hr {
+    margin: 2rem auto;
+  }
+
+  .campaign-name {
+    font-style: italic;
+    font-weight: normal;
+    font-size: .8em;
+  }
+
+  .campaign-name::before {
+    content: "« ";
+  }
+
+  .campaign-name::after {
+    content: " »";
+  }
+
+  .project-text {
+    word-break: keep-all;
+  }
+
+  @media screen and (min-width: 800px) {
+    .project-text {
+      display: flex;
+    }
+
+    .project-text-content {
+      flex: 0 0 60%;
+      padding-right: 2rem;
+    }
+
+    .project-quote {
+      margin: 0;
+      align-self: flex-start;
+      flex: 0 0 40%;
+    }
+  }
+}

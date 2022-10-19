@@ -1,42 +1,46 @@
 {{ partial "header.html" . }}
 
-{{ partial "page-nav.html" . }}
+<main id="content" class="project-page">
+  <nav class="page-navigation">
+    <a href="/">← Accueil</a>
+  </nav>
 
-<main id="content" class="site-content">
-  <article class="single-project">
+  <article class="project-content">
     <div class="project-infos">
       <h1 class="project-title">
         {{- .Title -}}
-        <br>
+        <br />
         <span class="campaign-name">{{ .Params.campaignName | safeHTML }}</span>
       </h1>
 
-      <hr>
+      <hr />
 
       <div class="project-text">
-        <div class="project-text-content">
-          {{ .Content }}
-        </div>
+        <div class="project-text-content">{{ .Content }}</div>
         <blockquote class="project-quote">
           {{ .Params.quote | safeHTML }}
         </blockquote>
       </div>
     </div>
 
-    {{ range .Params.videos -}}
-      {{ partial "youtube.html" . }}
-    {{- end}}
+    {{ range .Params.videos -}} {{ partial "youtube.html" . }} {{- end}}
 
     <div class="project-images">
       {{ range .Resources.Match "images/*.{jpg,jpeg,png}" -}}
-      <img src="{{ .RelPermalink }}" alt="Image extraite du projet {{ .Title }}" class="project-image">
+      <img
+        src="{{ .RelPermalink }}"
+        alt="Image extraite du projet {{ .Title }}"
+        class="project-image"
+      />
       {{- end }}
     </div>
   </article>
 </main>
 
 <nav class="container">
-  <a href="#menu" aria-label="Revenir en haut de la page">↑</a>
+  <a href="#content" class="top-link" aria-label="Revenir en haut de la page"
+    >↑</a
+  >
 </nav>
 
 {{ partial "footer.html" . }}

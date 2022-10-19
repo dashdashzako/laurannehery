@@ -1,31 +1,29 @@
 {{ partial "header.html" . }}
 
-<header id="menu" class="site-header container">
-  <h1 class="site-title">
-    {{ partial "heading-content.html" . }}
-  </h1>
+<main class="home-content">
+  <header>
+    <h1>
+      <a href="/" class="author-name"><img class="logo" width="270" height="82" src="{{ "img/common/logo-lauranne-hery.png" | relURL }}" alt="{{ .Site.Author.name }}"></a>
+      {{ .Site.Author.occupation }}
+    </h1>
 
-  {{ partial "site-navigation.html" . }}
+    <nav>
+      <span aria-hidden="true">🙋🏻‍♀️</span><a href="/presentation">Présentation</a>
+    </nav>
+  </header>
 
-</header>
+  {{ partial "contact.html" . }}
 
-<main id="content" class="site-content container">
-  <ul class="projects-list">
-    {{ range (where .Site.Pages "Section" "project") -}}
-    {{ $thumbnail := .Resources.GetMatch "miniature*" }}
-    <li class="projects-list-item">
-      <a href="{{ .Permalink }}" style="background-image: url({{- with $thumbnail -}}{{ .RelPermalink }}{{- end -}});">
-        <article>
-          <h2 class="title">{{ .Title }}</h2>
-        </article>
-      </a>
-    </li>
-    {{- end }}
-  </ul>
+  {{ range (where .Site.Pages "Section" "project") -}}
+  {{ $thumbnail := .Resources.GetMatch "miniature*" }}
+  <div class="project">
+    <a href="{{ .Permalink }}" style="background-image: url({{- with $thumbnail -}}{{ .RelPermalink }}{{- end -}});">
+      <article>
+        <h2 class="title">{{ .Title }}</h2>
+      </article>
+    </a>
+  </div>
+  {{- end }}
 </main>
-
-<nav class="container handheld-only">
-  <a href="#menu" aria-label="Revenir en haut de la page">↑</a>
-</nav>
 
 {{ partial "footer.html" . }}

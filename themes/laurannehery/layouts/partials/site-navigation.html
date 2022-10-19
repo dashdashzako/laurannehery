@@ -1,5 +1,0 @@
-<nav class="site-navigation">
-  {{ range where .Site.RegularPages "Section" "page" -}}
-  <span class="navigation-item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-  {{- end }}
-</nav>

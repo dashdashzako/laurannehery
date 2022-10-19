@@ -1,0 +1,18 @@
+.introduction-page {
+  .author-picture {
+    overflow-x: hidden;
+
+    img {
+      min-width: 800px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .introduction-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.125rem;
+  }
+}

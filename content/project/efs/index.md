@@ -13,7 +13,7 @@ Supports pédagogiques PPT animés à destination des enseignants pour diffuser
 dans les salles de classe.
 
 Pour les télécharger et apprendre comment sauver des vies, c’est par ici :
-<https://dondesang.efs.sante.fr/sensibiliser-les-plus-jeunes-au-don-de-sang>
+<https://www.efs.sante.fr/sensibiliser-les-plus-jeunes-au-don-de-sang>
 
 - Concept
 - Reformulation de tous les textes fournis par l’EFS

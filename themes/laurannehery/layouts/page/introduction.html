@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<main class="introduction-page">
+  <nav class="page-navigation">
+    <a href="/">← Accueil</a>
+  </nav>
+
+  <div class="author-picture">
+    <img src="/img/common/homework.jpg" alt="Lauranne Héry à son bureau" />
+  </div>
+
+  <h1 class="visually-hidden">Présentation</h1>
+
+  <article class="introduction-content">{{ .Content }}</article>
+</main>
+
+{{ partial "footer.html" . }}
