@@ -9,8 +9,3 @@ draft: false
 ---
 
 Bénévolat pour l’association, en binôme avec [Éloïse Pouget (directrice artistique)](https://eloisepouget.fr/)
-
-- Conception du logo
-- Conception de la banderole
-- Conception-rédaction de flyers
-- Etc.
