@@ -9,4 +9,4 @@ draft: false
 ---
 
 Grand jeu en restaurants  
-But : gratter une première case pour découvrir son gain, puis gratter ou non la 2<sup>e</sup> case pour gagner plus gros (ou pas) et risquer de perdre le 1<sup>er</sup> gain
+But : gratter une première case pour découvrir son gain, puis gratter ou non la 2<sup>e</sup> case pour gagner plus gros (ou pas)
