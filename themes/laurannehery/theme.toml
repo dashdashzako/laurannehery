@@ -7,8 +7,9 @@ description = ""
 homepage = "https://www.laurannehery.fr/"
 tags = []
 features = []
-min_version = "0.101.0"
+min_version = "0.135.0"
 
-[author]
-  name = "Lauranne Héry"
-  homepage = "https://www.laurannehery.fr/"
+[params]
+  [params.author]
+    name = "Lauranne Héry"
+    homepage = "https://www.laurannehery.fr/"

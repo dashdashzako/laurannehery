@@ -1,8 +1,8 @@
 languageCode = "fr"
 theme = "laurannehery"
-title = "Lauranne Héry"
+title = "Lauranne Héry – Portfolio"
 baseurl = "https://www.laurannehery.fr/"
-disableKinds = ["RSS", "section", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS", "section", "taxonomy"]
 enableRobotsTXT = false
 removePathAccents = true
 
@@ -11,11 +11,10 @@ unsafe = true
 
 [params]
 description = "Portfolio de Lauranne Héry, conceptrice-rédactrice indépendante"
+  [params.author]
+  name = "Lauranne Héry"
+  occupation = "Conceptrice-rédactrice indépendante"
 
 [permalinks]
 page = "/:slug/"
 project = "/portfolio/:slug/"
-
-[author]
-name = "Lauranne Héry"
-occupation = "Conceptrice-rédactrice indépendante"
