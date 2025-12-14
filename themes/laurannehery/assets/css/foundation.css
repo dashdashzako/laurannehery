@@ -9,7 +9,6 @@
   --palette-text-color: #006865;
   --palette-text-color-alt: #FF0077;
   --palette-background: #EFEFEF;
-  --palette-background-pale: #EFEFEF;
   --palette-shadow: rgba(0, 0, 0, .1);
   --palette-white: #FFFFFF;
 }
@@ -32,7 +31,6 @@ html {
   font-family: "Roboto", system, sans-serif;
   color: var(--palette-text-color);
   background-color: var(--palette-background);
-  background-image: linear-gradient(to bottom, var(--palette-background) 0, var(--palette-background) 500px, var(--palette-background-pale) 900px);
   scroll-behavior: smooth;
 }
 

@@ -13,12 +13,13 @@
     max-width: 100%;
     display: block;
     margin: 0 auto;
+    background-color: var(--palette-background);
     box-shadow: 2px 3px 2px var(--palette-shadow), 0 0 1px var(--palette-shadow);
     border: 1rem solid var(--palette-white);
   }
 
   .project-image + .project-image {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 
   .project-title {
