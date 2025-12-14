@@ -8,7 +8,7 @@ draft: false
 ---
 
 Bonjour,<br><br>
-Je m’appelle Lauranne et je suis conceptrice-rédactrice depuis 15 ans.  
+Je m’appelle Lauranne et je suis conceptrice-rédactrice depuis {{% years-diff 2008 %}} ans.  
 Après avoir travaillé en agences de communication puis dans un studio de jeux vidéo à Paris, je suis devenue conceptrice-rédactrice indépendante.
 
 Aujourd’hui, je vis dans le Morbihan, entre la forêt de Brocéliande et Vannes, en pleine campagne (mais avec une parfaite connexion à Internet).  
